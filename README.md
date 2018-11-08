@@ -1,3 +1,4 @@
+"
 ionic cordova build android --prod --release
 
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore "D:\VERONIA\MTFT\app\release.keystore" "D:\VERONIA\MTFT\app\platforms\android\build\outputs\apk\android-release-unsigned.apk" androidreleasekey
@@ -44,3 +45,4 @@ KeyIdentifier [
 0010: 52 CF 6D 7A                                        R.mz
 ]
 ]
+"
