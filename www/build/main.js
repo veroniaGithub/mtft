@@ -1,1 +1,2075 @@
-webpackJsonp([0],{127:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=127},140:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=140},184:function(l,n,u){"use strict";function e(l){return N._25(0,[(l()(),N._5(0,null,null,2,"ion-nav",[],null,null,null,Pn.b,Pn.a)),N._4(4374528,null,0,In.a,[[2,An.a],[2,On.a],an.a,Rn.a,Mn.a,N.l,N.z,N.F,N.k,sn.d,yn.a,[2,Fn.a],tn.a,N.m],{root:[0,"root"]},null),N._21(6144,null,Sn.a,null,[In.a]),(l()(),N._24(null,["\n"]))],function(l,n){l(n,1,0,n.component.rootPage)},null)}function t(l){return N._25(0,[(l()(),N._5(0,null,null,44,"ion-content",[["scroll","false"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ln.b,Ln.a)),N._4(4374528,null,0,En.a,[Rn.a,Mn.a,tn.a,N.l,N.F,an.a,gn.a,N.z,[2,An.a],[2,On.a]],null,null),(l()(),N._24(1,["\n\n  "])),(l()(),N._5(0,null,1,41,"div",[["class","backgroundContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,5,"div",[["class","imgBackground"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"img",[["src","assets/images/background.jpg"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"div",[["class","backgroundImgLayer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,8,"div",[["class","welcomeTitle"]],null,null,null,null,null)),(l()(),N._24(null,["\n       "])),(l()(),N._5(0,null,null,0,"img",[["src",""]],null,null,null,null,null)),(l()(),N._24(null,["\n       "])),(l()(),N._5(0,null,null,3,"h1",[],null,null,null,null,null)),(l()(),N._24(null,["One Million Trees "])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["For Tunisia"])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,21,"div",[["class","connexion"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"a",[],null,null,null,null,null)),(l()(),N._24(null,["Connectez vous !"])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,15,"div",[["class","connexionbuttons"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","facebook"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.facebookLogin()&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","logo-facebook"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","googleplus"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.googleLogin()&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","logo-googleplus"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n  "]))],function(l,n){l(n,32,0,"logo-facebook");l(n,39,0,"logo-googleplus")},function(l,n){l(n,0,0,N._18(n,1).statusbarPadding,N._18(n,1)._hasRefresher),l(n,31,0,N._18(n,32)._hidden),l(n,38,0,N._18(n,39)._hidden)})}function i(l){return N._25(0,[(l()(),N._5(0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),N._24(null,["Total: "," Arbres"]))],null,function(l,n){l(n,1,0,n.component.totalPlant)})}function o(l){return N._25(0,[(l()(),N._5(0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),N._24(null,["Total: "," Arbre"]))],null,function(l,n){l(n,1,0,n.component.totalPlant)})}function a(l){return N._25(0,[(l()(),N._5(0,null,null,0,"div",[["class","blackBackground"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(t.imgURL=null,t.grayClicked=!1,e=!1!=(t.greenClicked=!1)&&e),e},null,null))],null,null)}function s(l){return N._25(0,[(l()(),N._5(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),N._24(null,[""," Arbres"]))],null,function(l,n){l(n,1,0,n.component.selectedMarker.number)})}function r(l){return N._25(0,[(l()(),N._5(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),N._24(null,[""," Arbre"]))],null,function(l,n){l(n,1,0,n.component.selectedMarker.number)})}function _(l){return N._25(0,[(l()(),N._5(0,[[2,0],["nbrAjout",1]],null,0,"input",[["class","inputNumberGreen"],["min","0"],["placeholder","Nouveau nombre des arbres"],["type","number"]],null,null,null,null,null))],null,null)}function c(l){return N._25(0,[(l()(),N._5(0,null,null,4,"div",[["class","editNumber"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!=(t.showEditInputField=!0)&&e),e},null,null)),(l()(),N._24(null,["\n              "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","create"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n          "]))],function(l,n){l(n,3,0,"create")},function(l,n){l(n,2,0,N._18(n,3)._hidden)})}function d(l){return N._25(0,[(l()(),N._5(0,null,null,1,"button",[["type","submit"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.editMarker()&&e),e},null,null)),(l()(),N._24(null,["CONFIRMER"]))],null,null)}function h(l){return N._25(0,[(l()(),N._5(0,null,null,59,"div",[["class","GreenMarker"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,4,"div",[["class","delete"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(t.deleteCoord(),e=!1!=(t.greenClicked=!1)&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","trash"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,4,"div",[["class","close"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(t.showEditInputField=!1,t.doEditImgeField=!1,t.grayClicked=!1,t.greenClicked=!1,e=!1!==(t.imgURL=null)&&e),e},null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"div",[["class","userImage"]],[[4,"backgroundImage",null]],null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,27,"div",[["class","content"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,3,"div",[["class","left"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,0,"img",[["src","http://veronia.tn/data/media/images/green.png"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,19,"div",[["class","right"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),N._24(null,["",""])),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,s)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,r)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,_)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,c)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),N._24(null,["",""])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,9,"div",[["class","photo"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,4,"div",[["class","editImage"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(t.doEditImgeField=!0,e=!1!==t.takePhoto()&&e),e},null,null)),(l()(),N._24(null,["\n              "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","create"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._1(16777216,null,null,1,null,d)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n    "]))],function(l,n){var u=n.component;l(n,5,0,"trash");l(n,11,0,"close"),l(n,30,0,!u.showEditInputField&&1!=u.selectedMarker.number),l(n,33,0,!u.showEditInputField&&1==u.selectedMarker.number),l(n,36,0,u.showEditInputField),l(n,39,0,!u.showEditInputField);l(n,51,0,"create"),l(n,58,0,u.doEditImgeField||u.showEditInputField)},function(l,n){var u=n.component;l(n,4,0,N._18(n,5)._hidden),l(n,10,0,N._18(n,11)._hidden),l(n,14,0,"url("+u.bgImage+")"),l(n,27,0,u.name),l(n,42,0,u.selectedMarker.date),l(n,50,0,N._18(n,51)._hidden),l(n,54,0,N._9(1,"",u.selectedMarker.image,""))})}function p(l){return N._25(0,[(l()(),N._5(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),N._24(null,["Total: "," Arbres"]))],null,function(l,n){l(n,1,0,n.component.totalPlant)})}function f(l){return N._25(0,[(l()(),N._5(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),N._24(null,["Total: "," Arbre"]))],null,function(l,n){l(n,1,0,n.component.totalPlant)})}function m(l){return N._25(0,[(l()(),N._5(0,null,null,7,"div",[["class","photo"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.takePhoto()&&e),e},null,null)),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","camera"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),N._24(null,["Prenez une photo de la plantation!"])),(l()(),N._24(null,["\n          "]))],function(l,n){l(n,3,0,"camera")},function(l,n){l(n,2,0,N._18(n,3)._hidden)})}function g(l){return N._25(0,[(l()(),N._5(0,null,null,3,"div",[["class","photo"]],null,null,null,null,null)),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),N._24(null,["\n          "]))],null,function(l,n){var u=n.component;l(n,2,0,N._9(1,"",u.imgURL,""))})}function b(l){return N._25(0,[(l()(),N._5(0,null,null,42,"div",[["class","GrayMarker"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,4,"div",[["class","delete"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(t.deleteCoord(),e=!1!=(t.grayClicked=!1)&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","trash"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,4,"div",[["class","close"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(t.grayClicked=!1,t.greenClicked=!1,e=!1!==(t.imgURL=null)&&e),e},null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"div",[["class","userImage"]],[[4,"backgroundImage",null]],null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,24,"div",[["class","content"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),N._24(null,["",""])),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,p)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,f)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),N._24(null,["Nombre des arbres à ajouter:"])),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,[[2,0],["nbrAjout",1]],null,0,"input",[["min","0"],["type","number"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,m)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,g)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"button",[["type","submit"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.turnIntoGreen()&&e),e},null,null)),(l()(),N._24(null,["CONFIRMER"])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n    "]))],function(l,n){var u=n.component;l(n,5,0,"trash");l(n,11,0,"close"),l(n,23,0,1!=u.totalPlant),l(n,26,0,1==u.totalPlant),l(n,34,0,!u.imgURL),l(n,37,0,u.imgURL)},function(l,n){var u=n.component;l(n,4,0,N._18(n,5)._hidden),l(n,10,0,N._18(n,11)._hidden),l(n,14,0,"url("+u.bgImage+")"),l(n,20,0,u.name)})}function v(l){return N._25(0,[N._22(402653184,1,{mapElement:0}),N._22(671088640,2,{nbrAjoutGray:0}),(l()(),N._5(0,null,null,71,"ion-content",[["scroll","false"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ln.b,Ln.a)),N._4(4374528,null,0,En.a,[Rn.a,Mn.a,tn.a,N.l,N.F,an.a,gn.a,N.z,[2,An.a],[2,On.a]],null,null),(l()(),N._24(1,["\n\n  "])),(l()(),N._5(0,null,1,67,"div",[["class","backgroundContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,5,"div",[["class","imgBackground"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"img",[["src","assets/images/background.jpg"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"div",[["class","backgroundImgLayer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,28,"div",[["class","title"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,25,"div",[["class","actions"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","map"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","pin"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","home"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","home"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToFeed()&&e),e},null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","compte"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","person"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToCompte()&&e),e},null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","cart"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToCRDA()&&e),e},null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,[[1,0],["map",1]],null,0,"div",[["id","map"],["scroll","false"],["zoom-control","false"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._1(16777216,null,null,1,null,i)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n    "])),(l()(),N._1(16777216,null,null,1,null,o)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,4,"div",[["class","plus"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToPlantation()&&e),e},null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,4,"div",[["class","podium"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.gotoPodium()&&e),e},null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","podium"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._1(16777216,null,null,1,null,a)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n    "])),(l()(),N._1(16777216,null,null,1,null,h)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n    "])),(l()(),N._1(16777216,null,null,1,null,b)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n\n  "])),(l()(),N._24(1,["\n\n"])),(l()(),N._24(null,["\n"]))],function(l,n){var u=n.component;l(n,21,0,"pin");l(n,27,0,"home");l(n,33,0,"person");l(n,39,0,"call"),l(n,47,0,1!=u.totalPlant),l(n,50,0,1==u.totalPlant);l(n,55,0,"add");l(n,61,0,"podium"),l(n,65,0,u.greenClicked||u.grayClicked),l(n,68,0,u.greenClicked),l(n,71,0,u.grayClicked)},function(l,n){l(n,2,0,N._18(n,3).statusbarPadding,N._18(n,3)._hasRefresher),l(n,20,0,N._18(n,21)._hidden),l(n,26,0,N._18(n,27)._hidden),l(n,32,0,N._18(n,33)._hidden),l(n,38,0,N._18(n,39)._hidden),l(n,54,0,N._18(n,55)._hidden),l(n,60,0,N._18(n,61)._hidden)})}function y(l){return N._25(0,[(l()(),N._5(0,null,null,573,"ion-content",[["scroll","false"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ln.b,Ln.a)),N._4(4374528,null,0,En.a,[Rn.a,Mn.a,tn.a,N.l,N.F,an.a,gn.a,N.z,[2,An.a],[2,On.a]],null,null),(l()(),N._24(1,["\n\n  "])),(l()(),N._5(0,null,1,569,"div",[["class","backgroundContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,5,"div",[["class","imgBackground"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"img",[["src","assets/images/background.jpg"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"div",[["class","backgroundImgLayer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,28,"div",[["class","title"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,25,"div",[["class","actions"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","map"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","pin"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToMap()&&e),e},null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","home"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","home"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToFeed()&&e),e},null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","compte"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","person"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToCompte()&&e),e},null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","cart"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,529,"div",[["class","list"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Tunis"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["35, Avenue Kheireddine Pacha"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21671801636"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21671801636")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Ariana"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Cité Bouchoucha - le Bardo 2000"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21671564939"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21671564939")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Manouba"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["35, Avenue Kheireddine Pacha"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21671624420"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21671624420")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Nabeul"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Rue Mongi Bali - Nabeul 8000"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21672274434"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21672274434")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Bizerte"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Avenue Hassen Nouri - Bizerte 7000"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21672431438"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21672431438")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Ben Arous"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Immeuble SPROLS - Nouvelle Médina 2063"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21671310037"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21671310037")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Zaghouan"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Avenue Hédi Chaker - Zaghouan 1100"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21672675414"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21672675414")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Siliana"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Route de Gaâfour - Siliana"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21678872790"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21678872790")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Kef"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Avenue de la Liberté -le Kef 7100"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21678224711"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21678224711")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Béja"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Avenue Habib Bourguiba - Béjà 9000"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21678243754"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21678243754")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Jendouba"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Route de Tunis - Jendouba 8100"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21678603426"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21678603426")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Kasserine"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Avenue Habib Bourguiba - Kasserine 1200"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21677474935"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21677474935")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Sfax"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Rue Commandant Béjaoui"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21674226195"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21674226195")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Sousse"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Rue d'Alger - Sousse"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21673224176"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21673224176")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Monastir"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Sahel Jabeur - Monastir 5000"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21673460328"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21673460328")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Mahdia"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Hiboun - Mahdia 5119"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21673680266"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21673680266")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Kairouan"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Cité Sidi Layoun - Kairouan 3100"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21677303117"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21677303117")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Sidi Bouzid"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Avenue Habib Bourguiba - Sidi Bouzid 9100"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21676632854"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21676632854")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Gafsa"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Av. Habib Bourguiba - Gafsa 2100"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21676220104"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21676220104")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Gabès"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Rue Abou Kacem Chebbi - 6019Gabès"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21675280831"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21675280831")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Kebili"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Rue Salah B. Youssef Kebili - 4200"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21675490330"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21675490330")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Tozeur"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Route de Nafta Avenue F. Hached"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21676452556"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21676452556")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Medenine"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Rue 2Mai 1966- Medenine 4119"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21675640513"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21675640513")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,20,"div",[["class","card"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["CRDA Tataouine"])),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","address"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Cité 7Novembre - Tataouine"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,5,"div",[["class","telephone"]],null,null,null,null,null)),(l()(),N._5(0,null,null,4,"a",[["href","tel:+21675870067"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.callIT("tel:+21675870067")&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n  "])),(l()(),N._24(1,["\n\n"])),(l()(),N._24(null,["\n"]))],function(l,n){l(n,19,0,"pin");l(n,25,0,"home");l(n,31,0,"person");l(n,37,0,"call");l(n,62,0,"call");l(n,84,0,"call");l(n,106,0,"call");l(n,128,0,"call");l(n,150,0,"call");l(n,172,0,"call");l(n,194,0,"call");l(n,216,0,"call");l(n,238,0,"call");l(n,260,0,"call");l(n,282,0,"call");l(n,304,0,"call");l(n,326,0,"call");l(n,348,0,"call");l(n,370,0,"call");l(n,392,0,"call");l(n,414,0,"call");l(n,436,0,"call");l(n,458,0,"call");l(n,480,0,"call");l(n,502,0,"call");l(n,524,0,"call");l(n,546,0,"call");l(n,568,0,"call")},function(l,n){l(n,0,0,N._18(n,1).statusbarPadding,N._18(n,1)._hasRefresher),l(n,18,0,N._18(n,19)._hidden),l(n,24,0,N._18(n,25)._hidden),l(n,30,0,N._18(n,31)._hidden),l(n,36,0,N._18(n,37)._hidden),l(n,61,0,N._18(n,62)._hidden),l(n,83,0,N._18(n,84)._hidden),l(n,105,0,N._18(n,106)._hidden),l(n,127,0,N._18(n,128)._hidden),l(n,149,0,N._18(n,150)._hidden),l(n,171,0,N._18(n,172)._hidden),l(n,193,0,N._18(n,194)._hidden),l(n,215,0,N._18(n,216)._hidden),l(n,237,0,N._18(n,238)._hidden),l(n,259,0,N._18(n,260)._hidden),l(n,281,0,N._18(n,282)._hidden),l(n,303,0,N._18(n,304)._hidden),l(n,325,0,N._18(n,326)._hidden),l(n,347,0,N._18(n,348)._hidden),l(n,369,0,N._18(n,370)._hidden),l(n,391,0,N._18(n,392)._hidden),l(n,413,0,N._18(n,414)._hidden),l(n,435,0,N._18(n,436)._hidden),l(n,457,0,N._18(n,458)._hidden),l(n,479,0,N._18(n,480)._hidden),l(n,501,0,N._18(n,502)._hidden),l(n,523,0,N._18(n,524)._hidden),l(n,545,0,N._18(n,546)._hidden),l(n,567,0,N._18(n,568)._hidden)})}function k(l){return N._25(0,[(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["",""]))],null,function(l,n){l(n,1,0,n.parent.context.index+1)})}function C(l){return N._25(0,[(l()(),N._5(0,null,null,0,"img",[["src","assets/images/gold.png"]],null,null,null,null,null))],null,null)}function w(l){return N._25(0,[(l()(),N._5(0,null,null,0,"img",[["src","assets/images/silver.png"]],null,null,null,null,null))],null,null)}function P(l){return N._25(0,[(l()(),N._5(0,null,null,0,"img",[["src","assets/images/bronze.png"]],null,null,null,null,null))],null,null)}function I(l){return N._25(0,[(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,[""," arbres"]))],null,function(l,n){l(n,1,0,n.parent.context.$implicit.totalArbres)})}function A(l){return N._25(0,[(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,[""," arbre"]))],null,function(l,n){l(n,1,0,n.parent.context.$implicit.totalArbres)})}function O(l){return N._25(0,[(l()(),N._5(0,null,null,36,"div",[],null,null,null,null,null)),N._4(278528,null,0,un.f,[N.t,N.u,N.l,N.F],{ngClass:[0,"ngClass"]},null),N._20(["user","usersession"]),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,13,"div",[["class","rank"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,k)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,C)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,w)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,P)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,1,"div",[["class","image"]],[[4,"backgroundImage",null]],null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["",""])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,7,"div",[["class","nbrArbres"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,I)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,A)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "]))],function(l,n){var u=n.component;l(n,1,0,l(n,2,0,n.context.$implicit.email!=u.user_session.getUser().email,n.context.$implicit.email==u.user_session.getUser().email)),l(n,7,0,n.context.index+1>3),l(n,10,0,n.context.index+1==1),l(n,13,0,n.context.index+1==2),l(n,16,0,n.context.index+1==3),l(n,31,0,1!=n.context.$implicit.totalArbres),l(n,34,0,1==n.context.$implicit.totalArbres)},function(l,n){l(n,19,0,"url("+n.context.$implicit.photo+")"),l(n,25,0,n.context.$implicit.name)})}function R(l){return N._25(0,[(l()(),N._5(0,null,null,24,"ion-content",[["scroll","false"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ln.b,Ln.a)),N._4(4374528,null,0,En.a,[Rn.a,Mn.a,tn.a,N.l,N.F,an.a,gn.a,N.z,[2,An.a],[2,On.a]],null,null),(l()(),N._24(1,["\n\n  "])),(l()(),N._5(0,null,1,20,"div",[["class","backgroundContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,5,"div",[["class","imgBackground"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"img",[["src","assets/images/background.jpg"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"div",[["class","backgroundImgLayer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,4,"div",[["class","userslist"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._1(16777216,null,null,1,null,O)),N._4(802816,null,0,un.g,[N.P,N.M,N.t],{ngForOf:[0,"ngForOf"]},null),(l()(),N._24(null,["\n\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,4,"div",[["class","close"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToMap()&&e),e},null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n  "])),(l()(),N._24(1,["\n\n"])),(l()(),N._24(null,["\n"]))],function(l,n){l(n,15,0,n.component.users);l(n,21,0,"close")},function(l,n){l(n,0,0,N._18(n,1).statusbarPadding,N._18(n,1)._hasRefresher),l(n,20,0,N._18(n,21)._hidden)})}function M(l){return N._25(0,[(l()(),N._5(0,null,null,4,"div",[["class","like"]],null,null,null,null,null)),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","heart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n          "]))],function(l,n){l(n,3,0,"heart")},function(l,n){l(n,2,0,N._18(n,3)._hidden)})}function F(l){return N._25(0,[(l()(),N._5(0,null,null,4,"div",[["class","like-red"]],null,null,null,null,null)),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","heart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n          "]))],function(l,n){l(n,3,0,"heart")},function(l,n){l(n,2,0,N._18(n,3)._hidden)})}function S(l){return N._25(0,[(l()(),N._5(0,null,null,55,"div",[["class","feed"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,23,"div",[["class","feedHeader"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.like(l.context.$implicit)&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,0,"div",[["class","backgroundFeed"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,0,"div",[["class","image"]],[[4,"backgroundImage",null]],null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,4,"div",[["class","location"]],null,null,null,null,null)),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","pin"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToMap()&&e),e},null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,4,"div",[["class","adresse"]],null,null,null,null,null)),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["",""])),(l()(),N._24(null,["\n          "])),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,M)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._1(16777216,null,null,1,null,F)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,27,"div",[["class","feedData"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,0,"div",[["class","userImage"]],[[4,"backgroundImage",null]],null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,4,"div",[["class","date"]],null,null,null,null,null)),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["",""])),(l()(),N._24(null,["\n          "])),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,10,"div",[["class","userName"]],null,null,null,null,null)),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["",""])),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,4,"h1",[],null,null,null,null,null)),(l()(),N._24(null,["","\n              "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","heart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n            "])),(l()(),N._24(null,["\n          "])),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,4,"div",[["class","share"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.share(l.context.$implicit)&&e),e},null,null)),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","md-share"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n\n          "])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "]))],function(l,n){var u=n.component;l(n,11,0,"pin"),l(n,21,0,u.user_session.getUser().likes.indexOf(n.context.$implicit._id)<0),l(n,24,0,u.user_session.getUser().likes.indexOf(n.context.$implicit._id)>=0);l(n,45,0,"heart");l(n,52,0,"md-share")},function(l,n){l(n,6,0,"url("+n.context.$implicit.image+")"),l(n,10,0,N._18(n,11)._hidden),l(n,17,0,n.context.$implicit.address),l(n,29,0,"url("+n.context.$implicit.user.photo+")"),l(n,34,0,n.context.$implicit.date),l(n,40,0,n.context.$implicit.user.name),l(n,43,0,n.context.$implicit.likes),l(n,44,0,N._18(n,45)._hidden),l(n,51,0,N._18(n,52)._hidden)})}function T(l){return N._25(0,[(l()(),N._5(0,null,null,48,"ion-content",[["scroll","false"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ln.b,Ln.a)),N._4(4374528,null,0,En.a,[Rn.a,Mn.a,tn.a,N.l,N.F,an.a,gn.a,N.z,[2,An.a],[2,On.a]],null,null),(l()(),N._24(1,["\n\n  "])),(l()(),N._5(0,null,1,44,"div",[["class","backgroundContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,5,"div",[["class","imgBackground"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,0,"img",[["src","assets/images/background.jpg"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,0,"div",[["class","backgroundImgLayer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,28,"div",[["class","title"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,25,"div",[["class","actions"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","map"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","pin"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToMap()&&e),e},null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","home"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","home"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","compte"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","person"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToCompte()&&e),e},null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","cart"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToCRDA()&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,4,"div",[["class","list"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._1(16777216,null,null,1,null,S)),N._4(802816,null,0,un.g,[N.P,N.M,N.t],{ngForOf:[0,"ngForOf"]},null),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n  "])),(l()(),N._24(1,["\n\n"])),(l()(),N._24(null,["\n\n"]))],function(l,n){var u=n.component;l(n,19,0,"pin");l(n,25,0,"home");l(n,31,0,"person");l(n,37,0,"call"),l(n,45,0,u.feeds)},function(l,n){l(n,0,0,N._18(n,1).statusbarPadding,N._18(n,1)._hasRefresher),l(n,18,0,N._18(n,19)._hidden),l(n,24,0,N._18(n,25)._hidden),l(n,30,0,N._18(n,31)._hidden),l(n,36,0,N._18(n,37)._hidden)})}function j(l){return N._25(0,[(l()(),N._5(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),N._24(null,[""," arbres"]))],null,function(l,n){l(n,1,0,n.component.user_session.getUser().totalArbres)})}function D(l){return N._25(0,[(l()(),N._5(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),N._24(null,[""," arbre"]))],null,function(l,n){l(n,1,0,n.component.user_session.getUser().totalArbres)})}function L(l){return N._25(0,[(l()(),N._5(0,null,null,103,"ion-content",[["scroll","false"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ln.b,Ln.a)),N._4(4374528,null,0,En.a,[Rn.a,Mn.a,tn.a,N.l,N.F,an.a,gn.a,N.z,[2,An.a],[2,On.a]],null,null),(l()(),N._24(1,["\n\n  "])),(l()(),N._5(0,null,1,99,"div",[["class","backgroundContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,5,"div",[["class","imgBackground"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"img",[["src","assets/images/background.jpg"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"div",[["class","backgroundImgLayer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,28,"div",[["class","title"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,25,"div",[["class","actions"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","map"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","pin"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToMap()&&e),e},null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","home"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","home"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToFeed()&&e),e},null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","compte"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","person"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","cart"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","call"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToCRDA()&&e),e},null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,59,"div",[["class","contenuCompte"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"div",[["class","image"]],[[4,"backgroundImage",null]],null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,4,"div",[["class","name"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["",""])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,7,"div",[["class","nbrArbres"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._1(16777216,null,null,1,null,j)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n        "])),(l()(),N._1(16777216,null,null,1,null,D)),N._4(16384,null,0,un.h,[N.P,N.M],{ngIf:[0,"ngIf"]},null),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,19,"div",[["class","compteContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","compteContenu"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToAbout()&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["À propos"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","compteContenu"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToSteps()&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Comment ça marche ?"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,4,"div",[["class","compteContenu"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToConfidentialite()&&e),e},null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Confidentialité"])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,16,"div",[["class","total"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),N._24(null,["Total des arbres plantées: "])),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,4,"div",[["class","nbr"]],null,null,null,null,null)),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["",""])),(l()(),N._24(null,["\n          "])),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,4,"div",[["class","million"]],null,null,null,null,null)),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["/ 1 million"])),(l()(),N._24(null,["\n          "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n  "])),(l()(),N._24(1,["\n\n"])),(l()(),N._24(null,["\n"]))],function(l,n){var u=n.component;l(n,19,0,"pin");l(n,25,0,"home");l(n,31,0,"person");l(n,37,0,"call"),l(n,56,0,1!=u.user_session.getUser().totalArbres),l(n,59,0,1==u.user_session.getUser().totalArbres)},function(l,n){var u=n.component;l(n,0,0,N._18(n,1).statusbarPadding,N._18(n,1)._hasRefresher),l(n,18,0,N._18(n,19)._hidden),l(n,24,0,N._18(n,25)._hidden),l(n,30,0,N._18(n,31)._hidden),l(n,36,0,N._18(n,37)._hidden),l(n,44,0,"url("+u.user_session.getUser().photo+")"),l(n,50,0,u.user_session.getUser().name),l(n,92,0,u.total)})}function E(l){return N._25(0,[N._22(402653184,1,{code:0}),N._22(402653184,2,{email:0}),(l()(),N._5(0,null,null,64,"ion-content",[["scroll","false"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ln.b,Ln.a)),N._4(4374528,null,0,En.a,[Rn.a,Mn.a,tn.a,N.l,N.F,an.a,gn.a,N.z,[2,An.a],[2,On.a]],null,null),(l()(),N._24(1,["\n\n  "])),(l()(),N._5(0,null,1,60,"div",[["class","backgroundContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,5,"div",[["class","imgBackground"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,0,"img",[["src","assets/images/background.jpg"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,0,"div",[["class","backgroundImgLayer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,24,"div",[["class","connexion"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"a",[],null,null,null,null,null)),(l()(),N._24(null,["Veuillez entrer le code de 10 chiffres reçu dans votre e-mail ","!"])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,12,"div",[["class","connexionbuttons"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,9,"div",[["class","code"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,[[1,0],["codeNumber",1]],null,0,"input",[["maxlength","10"],["name","codeNumber"],["placeholder","Votre code"],["type","tel"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,4,"div",[["class","next"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.validerCode()&&e),e},null,null)),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","checkmark"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,4,"div",[["class","messageerror"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["",""])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,24,"div",[["class","connexion changeEmail"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"a",[],null,null,null,null,null)),(l()(),N._24(null,["Vous n'avez pas reçu le code et vous voulez changer votre e-mail ?"])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,12,"div",[["class","connexionbuttons"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,9,"div",[["class","code"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,[[2,0],["newEmail",1]],null,0,"input",[["name","codeNumber"],["placeholder","Veuillez entrer votre e-mail"],["type","email"]],null,null,null,null,null)),(l()(),N._24(null,["\n          "])),(l()(),N._5(0,null,null,4,"div",[["class","next"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.changerEmail()&&e),e},null,null)),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","checkmark"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n          "])),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,4,"div",[["class","messageerror"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["",""])),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n\n  "])),(l()(),N._24(1,["\n\n"])),(l()(),N._24(null,["\n\n"]))],function(l,n){l(n,28,0,"checkmark");l(n,54,0,"checkmark")},function(l,n){var u=n.component;l(n,2,0,N._18(n,3).statusbarPadding,N._18(n,3)._hasRefresher),l(n,17,0,u.user_session.getUser().email),l(n,27,0,N._18(n,28)._hidden),l(n,36,0,u.messageerror),l(n,53,0,N._18(n,54)._hidden),l(n,62,0,u.messageerroremail)})}function U(l){return N._25(0,[(l()(),N._5(0,null,null,135,"ion-content",[["scroll","false"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ln.b,Ln.a)),N._4(4374528,null,0,En.a,[Rn.a,Mn.a,tn.a,N.l,N.F,an.a,gn.a,N.z,[2,An.a],[2,On.a]],null,null),(l()(),N._24(1,["\n\n  "])),(l()(),N._5(0,null,1,131,"div",[["class","backgroundContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,5,"div",[["class","imgBackground"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"img",[["src","assets/images/background.jpg"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"div",[["class","backgroundImgLayer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,4,"div",[["class","title"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Confidentialité"])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,109,"div",[["class","aboutContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,106,"p",[],null,null,null,null,null)),(l()(),N._24(null,["Devant le développement des nouveaux outils de communication, il est nécessaire de porter une attention\nparticulière à la protection de la vie privée."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" C'est pourquoi, nous nous engageons à respecter la confidentialité\ndes renseignements personnels que nous collectons."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["\n\nCollecte des renseignements personnels\nNous collectons les renseignements suivants :\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Nom\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Prénom\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Adresse postale\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Adresse électronique\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Numéro de téléphone / télécopieur\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Numéro de carte de crédit\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Genre / Sexe\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Âge / Date de naissance."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["\nLes renseignements personnels que nous collectons sont recueillis au travers de formulaires et grâce à\nl'interactivité établie entre vous et notre site Web."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Nous utilisons également, comme indiqué dans la section\nsuivante, des fichiers témoins et/ou journaux pour réunir des informations vous concernant."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["\n\nFormulaires  et interactivité:\nVos renseignements personnels sont collectés par le biais de formulaire, à savoir :\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Sondage d'opinion\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Concours\nNous utilisons les renseignements ainsi collectés pour les finalités suivantes :\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Suivi de la commande\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Informations / Offres promotionnelles\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Statistiques\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Contact\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Gestion du site Web (présentation, organisation)\nVos renseignements sont également collectés par le biais de l'interactivité pouvant s'établir entre vous et notre\nsite Web et ce, de la façon suivante:\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Statistiques\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Contact\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Gestion du site Web (présentation, organisation)\nNous utilisons les renseignements ainsi collectés pour les finalités suivantes :\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Commentaires\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Informations ou pour des offres promotionnelles."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["\n\nDroit d'opposition et de retrait\nNous nous engageons à vous offrir un droit d'opposition et de retrait quant à vos renseignements personnels."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["\n\nLe droit d'opposition s'entend comme étant la possibilité offerte aux internautes de refuser que leurs\nrenseignements personnels soient utilisées à certaines fins mentionnées lors de la collecte."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["\nLe droit de retrait s'entend comme étant la possibilité offerte aux internautes de demander à ce que leurs\nrenseignements personnels ne figurent plus, par exemple, dans une liste de diffusion."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["\nPour pouvoir exercer ces droits, vous pouvez :\nCode postal : imapsse du Bossu, tunis 1000\nCourriel : medmehdi."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["ghazzai@gamil."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["com\nSection du site web : Acaciasforall."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["org/\n\nDroit d'accès\nNous nous engageons à reconnaître un droit d'accès et de rectification aux personnes concernées désireuses de\nconsulter, modifier, voire radier les informations les concernant."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["\nL'exercice de ce droit se fera :\nCode postal : imapsse du Bossu, tunis 1000\nCourriel : medmehdi."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["ghazzai@gamil."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["com\nSection du site web : Acaciasforall."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["org/\n\nSécurité\nLes renseignements personnels que nous collectons sont conservés dans un environnement sécurisé."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Les\npersonnes travaillant pour nous sont tenues de respecter la confidentialité de vos informations."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["\nPour assurer la sécurité de vos renseignements personnels, nous avons recours aux mesures suivantes :\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Protocole SSL (Secure Sockets Layer)\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Protocole SET (Secure Electronic Transaction)\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Gestion des accès - personne autorisée\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Gestion des accès - personne concernée\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Logiciel de surveillance du réseau\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Sauvegarde informatique\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Développement de certificat numérique\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Identifiant / mot de passe\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Pare-feu (Firewalls)."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["\nNous nous engageons à maintenir un haut degré de confidentialité en intégrant les dernières innovations\ntechnologiques permettant d'assurer la confidentialité de vos transactions."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" Toutefois, comme aucun mécanisme\nn'offre une sécurité maximale, une part de risque est toujours présente lorsque l'on utilise Internet pour\ntransmettre des renseignements personnels."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["\n\nEnfants\nNotre site Web contient des sections destinées aux enfants."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,[" La collecte de leurs renseignements personnels se\nfait avec le consentement des parents ou du représentant de l'enfant."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["\n\nLabel\nNos engagements en matière de protection des renseignements personnels répondent aux exigences du\nprogramme suivant :\n- GEOTRUST\n\nLégislation\nNous nous engageons à respecter les dispositions législatives énoncées en :  Tunisie."])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,4,"div",[["class","close"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToMap()&&e),e},null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n  "])),(l()(),N._24(1,["\n\n"])),(l()(),N._24(null,["\n"]))],function(l,n){l(n,132,0,"close")},function(l,n){l(n,0,0,N._18(n,1).statusbarPadding,N._18(n,1)._hasRefresher),l(n,131,0,N._18(n,132)._hidden)})}function z(l){return N._25(0,[(l()(),N._5(0,null,null,30,"ion-content",[["scroll","false"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ln.b,Ln.a)),N._4(4374528,null,0,En.a,[Rn.a,Mn.a,tn.a,N.l,N.F,an.a,gn.a,N.z,[2,An.a],[2,On.a]],null,null),(l()(),N._24(1,["\n\n  "])),(l()(),N._5(0,null,1,26,"div",[["class","backgroundContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,5,"div",[["class","imgBackground"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"img",[["src","assets/images/background.jpg"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"div",[["class","backgroundImgLayer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,4,"div",[["class","title"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["À propos de One Million Trees For Tunisia"])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,4,"div",[["class","aboutContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),N._24(null,["Grâce à cette application, votre smartphone devient un outil puissant pour faire l’inventaire de toutes les plantations d’arbres du pays. Par le téléchargement et l’utilisation de cette application, vous soutenez la campagne « Un million d’arbre pour la Tunisie ». Cette application est pour tous les intéressés, les passionnés de la nature, et pour tous ceux qui sont engagés en faveur de la question environnementale."])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,4,"div",[["class","close"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToMap()&&e),e},null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n  "])),(l()(),N._24(1,["\n\n"])),(l()(),N._24(null,["\n"]))],function(l,n){l(n,27,0,"close")},function(l,n){l(n,0,0,N._18(n,1).statusbarPadding,N._18(n,1)._hasRefresher),l(n,26,0,N._18(n,27)._hidden)})}function x(l){return N._25(0,[(l()(),N._5(0,null,null,48,"ion-content",[["scroll","false"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ln.b,Ln.a)),N._4(4374528,null,0,En.a,[Rn.a,Mn.a,tn.a,N.l,N.F,an.a,gn.a,N.z,[2,An.a],[2,On.a]],null,null),(l()(),N._24(1,["\n\n  "])),(l()(),N._5(0,null,1,44,"div",[["class","backgroundContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,5,"div",[["class","imgBackground"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"img",[["src","assets/images/background.jpg"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"div",[["class","backgroundImgLayer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,4,"div",[["class","title"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Comment ça marche ?"])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,22,"div",[["class","aboutContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,19,"p",[],null,null,null,null,null)),(l()(),N._24(null,["Les caractéristiques et fonctions les plus importantes en résumé sont :\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["- Création de votre profil sur l’application\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["- Géolocaliser sa plantation\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["-Prendre en photo les différents arbres plantés\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["-Aimer et Partager avec ses amis ses plantations\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["-Participer au concours du total de plantation le plus élevé\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["-Contacter le service des forets le plus proche de sa région\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["-Achat de plants pour participer au financement de la campagne\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["-Comparer en elles les photos des différentes plantes\n"])),(l()(),N._5(0,null,null,0,"br",[],null,null,null,null,null)),(l()(),N._24(null,["-S’exercer et apprendre les noms au moyen des différentes descriptions de plantes."])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,4,"div",[["class","close"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToMap()&&e),e},null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n  "])),(l()(),N._24(1,["\n\n"])),(l()(),N._24(null,["\n"]))],function(l,n){l(n,45,0,"close")},function(l,n){l(n,0,0,N._18(n,1).statusbarPadding,N._18(n,1)._hasRefresher),l(n,44,0,N._18(n,45)._hidden)})}function G(l){return N._25(0,[N._22(402653184,1,{lat:0}),N._22(402653184,2,{lng:0}),(l()(),N._5(0,null,null,66,"ion-content",[["scroll","false"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Ln.b,Ln.a)),N._4(4374528,null,0,En.a,[Rn.a,Mn.a,tn.a,N.l,N.F,an.a,gn.a,N.z,[2,An.a],[2,On.a]],null,null),(l()(),N._24(1,["\n\n  "])),(l()(),N._5(0,null,1,62,"div",[["class","backgroundContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,5,"div",[["class","imgBackground"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"img",[["src","assets/images/background.jpg"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"div",[["class","backgroundImgLayer"]],null,null,null,null,null)),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,46,"div",[["class","aboutContainer"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,14,"div",[["class","gps"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,1,"b",[["class","emptyB"]],null,null,null,null,null)),(l()(),N._24(null,["Plantation en position actuelle"])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),N._24(null,["Planter selon votre position actuelle indiquée par votre appareil."])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,0,"div",[["class","latLng empty"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,3,"button",[],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.plantByLocation()&&e),e},null,null)),(l()(),N._24(null,["PLANTER"])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","locate"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,0,"div",[["class","divider"]],null,null,null,null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,25,"div",[["class","coordinates"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,1,"b",[],null,null,null,null,null)),(l()(),N._24(null,["Plantation par coordonnées"])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,1,"p",[],null,null,null,null,null)),(l()(),N._24(null,["Planter par saisie manuelle de coordonnées de l'endroit désiré."])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,11,"div",[["class","latLng"]],null,null,null,null,null)),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),N._24(null,["Latitude:"])),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,[[1,0],["lat",1]],null,0,"input",[["class","latitude"],["type","number"]],null,null,null,null,null)),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),N._24(null,["Longitude:"])),(l()(),N._24(null,["\n            "])),(l()(),N._5(0,[[2,0],["lng",1]],null,0,"input",[["class","Longitude"],["type","number"]],null,null,null,null,null)),(l()(),N._24(null,["\n        "])),(l()(),N._24(null,["\n        "])),(l()(),N._5(0,null,null,3,"button",[["type","submit"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.plantByCoords()&&e),e},null,null)),(l()(),N._24(null,["PLANTER "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","paper-plane"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n      "])),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n    "])),(l()(),N._5(0,null,null,4,"div",[["class","close"]],null,[[null,"click"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.goToMap()&&e),e},null,null)),(l()(),N._24(null,["\n      "])),(l()(),N._5(0,null,null,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),N._4(147456,null,0,Un.a,[Rn.a,N.l,N.F],{name:[0,"name"]},null),(l()(),N._24(null,["\n    "])),(l()(),N._24(null,["\n  "])),(l()(),N._24(1,["\n\n"])),(l()(),N._24(null,["\n"]))],function(l,n){l(n,29,0,"locate");l(n,58,0,"paper-plane");l(n,65,0,"close")},function(l,n){l(n,2,0,N._18(n,3).statusbarPadding,N._18(n,3)._hasRefresher),l(n,28,0,N._18(n,29)._hidden),l(n,57,0,N._18(n,58)._hidden),l(n,64,0,N._18(n,65)._hidden)})}Object.defineProperty(n,"__esModule",{value:!0});var q=u(29),N=u(0),B=u(13),H=u(38),V=u(67),K=u(68),$=u(69),X=u(143),W=u.n(X),J=u(80),Z=u(56),Y=(u(81),u(115)),Q=u(116),ll=this&&this.__decorate||function(l,n,u,e){var t,i=arguments.length,o=i<3?n:null===e?e=Object.getOwnPropertyDescriptor(n,u):e;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,u,e);else for(var a=l.length-1;a>=0;a--)(t=l[a])&&(o=(i<3?t(o):i>3?t(n,u,o):t(n,u))||o);return i>3&&o&&Object.defineProperty(n,u,o),o},nl=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},ul=function(){function l(l,n,u,e,t,i){this.alert=l,this.platform=n,this.diagnostic=u,this.loading=e,this.network=t,this.splashScreen=i}return l.prototype.internet=function(){var l=this;return new Promise(function(n){if(l.splashScreen.hide(),console.log(l.network.type),"none"==l.network.type){var u=l.alert.create({title:"Problème de connexion !",subTitle:"Veuillez activer la connexion internet",buttons:[{text:"OK",handler:function(){u.dismiss(),l.splashScreen.show(),window.location.reload()}}]});u.present(),n(!1)}else n(!0)})},l.prototype.gps=function(){var l=this;return new Promise(function(n){l.platform.is("mobileweb")||l.platform.is("core")?n(!0):l.diagnostic.isLocationEnabled().then(function(u){u?n(!0):(console.log(u),n(!1),l.alert.create({title:"Problème de localisation !",subTitle:"Veuillez activer le GPS",buttons:["OK"]}).present())}).catch(function(u){console.log(u),n(!1),l.alert.create({title:"Problème de localisation !",subTitle:"Veuillez activer le GPS",buttons:["OK"]}).present()})})},l}();ul=ll([Object(N.q)(),nl("design:paramtypes",["function"==typeof(el=void 0!==B.a&&B.a)&&el||Object,"function"==typeof(tl=void 0!==B.e&&B.e)&&tl||Object,"function"==typeof(il=void 0!==Y.a&&Y.a)&&il||Object,"function"==typeof(ol=void 0!==B.b&&B.b)&&ol||Object,"function"==typeof(al=void 0!==Q.a&&Q.a)&&al||Object,"function"==typeof(sl=void 0!==H.a&&H.a)&&sl||Object])],ul);var el,tl,il,ol,al,sl,rl=this&&this.__decorate||function(l,n,u,e){var t,i=arguments.length,o=i<3?n:null===e?e=Object.getOwnPropertyDescriptor(n,u):e;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,u,e);else for(var a=l.length-1;a>=0;a--)(t=l[a])&&(o=(i<3?t(o):i>3?t(n,u,o):t(n,u))||o);return i>3&&o&&Object.defineProperty(n,u,o),o},_l=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},cl=function(){function l(l,n,u){this.http=l,this.loading=n,this.verification=u}return l.prototype.getUsers=function(){var l=this;return new Promise(function(n){l.verification.internet().then(function(u){if(!u)return new Promise(function(l){l(!1)});var e=l.loading.create();e.present(),l.http.get("http://www.veronia.tn/mtft/ws_users").map(function(l){return l.json()}).subscribe(function(l){e.dismiss(),console.log(l),n(l)})})})},l.prototype.getCoordsOfOtherUsers=function(l){var n=this;return new Promise(function(u){n.verification.internet().then(function(e){if(!e)return new Promise(function(l){l(!1)});var t=n.loading.create();t.present(),n.http.get("http://www.veronia.tn/mtft/ws_users/"+l).map(function(l){return l.json()}).subscribe(function(l){t.dismiss(),console.log("other coords"),console.log(l),u(l)})})})},l.prototype.coordsExist=function(l,n,u){var e=this;return new Promise(function(t){e.verification.internet().then(function(i){if(!i)return new Promise(function(l){l(!1)});var o=e.loading.create();o.present(),e.http.get("http://www.veronia.tn/mtft/ws_users/coords/"+l+"/"+n.toString()+"/"+u.toString()).map(function(l){return l.json()}).subscribe(function(l){o.dismiss(),console.log(l),t(l)})})})},l.prototype.loginUser=function(l){var n=this;return new Promise(function(u){n.verification.internet().then(function(e){if(!e)return new Promise(function(l){l(!1)});var t=n.loading.create();t.present(),n.http.post("http://www.veronia.tn/mtft/ws_login",l).map(function(l){return l.json()}).subscribe(function(l){t.dismiss(),console.log(l),u(l)})})})},l.prototype.changeMail=function(l){var n=this;return new Promise(function(u){n.verification.internet().then(function(e){if(!e)return new Promise(function(l){l(!1)});var t=n.loading.create();t.present(),n.http.post("http://www.veronia.tn/mtft/ws_changemail",l).map(function(l){return l.json()}).subscribe(function(l){t.dismiss(),console.log(l),u(l)})})})},l.prototype.changeUser=function(l){var n=this;return new Promise(function(u){n.verification.internet().then(function(e){if(!e)return new Promise(function(l){l(!1)});var t=n.loading.create();t.present(),n.http.post("http://www.veronia.tn/mtft/ws_users/"+l._id,l).map(function(l){return l.json()}).subscribe(function(l){t.dismiss(),console.log(l),u(l)})})})},l}();cl=rl([Object(N.q)(),_l("design:paramtypes",["function"==typeof(dl=void 0!==Z.d&&Z.d)&&dl||Object,"function"==typeof(hl=void 0!==B.b&&B.b)&&hl||Object,"function"==typeof(pl=void 0!==ul&&ul)&&pl||Object])],cl);var dl,hl,pl,fl=this&&this.__decorate||function(l,n,u,e){var t,i=arguments.length,o=i<3?n:null===e?e=Object.getOwnPropertyDescriptor(n,u):e;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,u,e);else for(var a=l.length-1;a>=0;a--)(t=l[a])&&(o=(i<3?t(o):i>3?t(n,u,o):t(n,u))||o);return i>3&&o&&Object.defineProperty(n,u,o),o},ml=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},gl=function(){function l(l){this.http=l,this.sessionUser=[]}return l.prototype.addUser=function(l){this.sessionUser.length>0&&(this.sessionUser=[]),this.sessionUser.push(l)},l.prototype.deleteUser=function(){this.sessionUser=[]},l.prototype.getUser=function(){return this.sessionUser.length>0&&this.sessionUser[this.sessionUser.length-1]},l}();gl=fl([Object(N.q)(),ml("design:paramtypes",["function"==typeof(bl=void 0!==Z.d&&Z.d)&&bl||Object])],gl);var bl,vl=this&&this.__decorate||function(l,n,u,e){var t,i=arguments.length,o=i<3?n:null===e?e=Object.getOwnPropertyDescriptor(n,u):e;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,u,e);else for(var a=l.length-1;a>=0;a--)(t=l[a])&&(o=(i<3?t(o):i>3?t(n,u,o):t(n,u))||o);return i>3&&o&&Object.defineProperty(n,u,o),o},yl=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},kl=function(){function l(l,n,u){this.http=l,this.loading=n,this.verification=u}return l.prototype.postFeed=function(l){var n=this;return new Promise(function(u){n.verification.internet().then(function(e){if(!e)return new Promise(function(l){l(!1)});var t=n.loading.create();t.present(),n.http.post("http://www.veronia.tn/mtft/ws_feeds",l).map(function(l){return l.json()}).subscribe(function(l){t.dismiss(),console.log(l),u(l)})})})},l.prototype.getFeeds=function(){var l=this;return new Promise(function(n){l.verification.internet().then(function(u){if(!u)return new Promise(function(l){l(!1)});var e=l.loading.create();e.present(),l.http.get("http://www.veronia.tn/mtft/ws_feeds/").map(function(l){return l.json()}).subscribe(function(l){e.dismiss(),console.log(l),n(l)})})})},l.prototype.changeFeed=function(l){var n=this;return new Promise(function(u){n.verification.internet().then(function(e){if(!e)return new Promise(function(l){l(!1)});var t=n.loading.create();t.present(),n.http.post("http://www.veronia.tn/mtft/ws_feeds/"+l._id,l).map(function(l){return l.json()}).subscribe(function(l){t.dismiss(),console.log(l),u(l)})})})},l}();kl=vl([Object(N.q)(),yl("design:paramtypes",["function"==typeof(Cl=void 0!==Z.d&&Z.d)&&Cl||Object,"function"==typeof(wl=void 0!==B.b&&B.b)&&wl||Object,"function"==typeof(Pl=void 0!==ul&&ul)&&Pl||Object])],kl);var Cl,wl,Pl,Il=u(82),Al=u(83),Ol=function(){function l(l,n,u){var e=this;this.navCtrl=l,this.users_datareq=n,this.user_session=u,window,this.users_datareq.getUsers().then(function(l){e.users=l})}return l.prototype.ionViewDidLoad=function(){},l.prototype.goToMap=function(){this.navCtrl.pop()},l}(),Rl=function(){function l(l,n,u){var e=this;this.navCtrl=l,this.users_datareq=n,this.user_session=u,window,this.users_datareq.getUsers().then(function(l){e.users=l})}return l.prototype.ionViewDidLoad=function(){},l.prototype.goToMap=function(){this.navCtrl.pop()},l}(),Ml=function(){function l(l,n,u){var e=this;this.navCtrl=l,this.users_datareq=n,this.user_session=u,window,this.users_datareq.getUsers().then(function(l){e.users=l})}return l.prototype.ionViewDidLoad=function(){},l.prototype.goToMap=function(){this.navCtrl.pop()},l}(),Fl=function(){function l(l,n,u){this.navCtrl=l,this.users_datareq=n,this.user_session=u,this.total=0,window}return l.prototype.ionViewDidLoad=function(){var l=this;this.users_datareq.getUsers().then(function(n){for(var u=n,e=0;e<u.length;e++)l.total+=u[e].totalArbres})},l.prototype.goToFeed=function(){this.navCtrl.push(Tl,{},{animate:!1})},l.prototype.goToCRDA=function(){this.navCtrl.push(jl,{},{animate:!1})},l.prototype.goToMap=function(){this.navCtrl.push(zl,{},{animate:!1})},l.prototype.goToConfidentialite=function(){this.navCtrl.push(Ol,{animate:!0,animation:"md-transition",duration:1e3})},l.prototype.goToSteps=function(){this.navCtrl.push(Ml,{animate:!0,animation:"md-transition",duration:1e3})},l.prototype.goToAbout=function(){this.navCtrl.push(Rl,{animate:!0,animation:"md-transition",duration:1e3})},l}(),Sl=u(84),Tl=function(){function l(l,n,u,e,t,i,o,a){var s=this;this.navCtrl=l,this.platform=n,this.user_session=u,this.social_share=e,this.feeds_datareq=t,this.users_datareq=i,this.geocoder=o,this.loading=a,window,this.feeds_datareq.getFeeds().then(function(l){s.feeds=l;for(var n=0,u=s.feeds;n<u.length;n++)!function(l){s.platform.is("mobileweb")?s.feeds[s.feeds.indexOf(l)].address="95 Avenue Fethi Zouhair, Cité La Ghazelle, Ariana":s.geocoder.reverseGeocode(l.lat,l.lng).then(function(n){s.feeds[s.feeds.indexOf(l)].address="",n.subThoroughfare&&(s.feeds[s.feeds.indexOf(l)].address+=n.subThoroughfare+" "),n.thoroughfare&&(s.feeds[s.feeds.indexOf(l)].address+=n.thoroughfare+" ,"),n.subLocality&&(s.feeds[s.feeds.indexOf(l)].address+=n.subLocality+" "),n.locality&&(s.feeds[s.feeds.indexOf(l)].address+=n.locality+" ,"),n.subAdministrativeArea&&(s.feeds[s.feeds.indexOf(l)].address+=n.subAdministrativeArea+" "),n.administrativeArea&&(s.feeds[s.feeds.indexOf(l)].address+=n.administrativeArea+" ")})}(u[n])})}return l.prototype.ionViewDidLoad=function(){},l.prototype.goToMap=function(){this.navCtrl.push(zl,{},{animate:!1})},l.prototype.goToCRDA=function(){this.navCtrl.push(jl,{},{animate:!1})},l.prototype.goToCompte=function(){this.navCtrl.push(Fl,{},{animate:!1})},l.prototype.like=function(l){var n=this.user_session.getUser();n.likes.indexOf(l._id)>=0?(n.likes.splice(n.likes.indexOf(l._id),1),this.feeds[this.feeds.indexOf(l)].likes=parseInt(this.feeds[this.feeds.indexOf(l)].likes)-1):(n.likes.push(l._id),this.feeds[this.feeds.indexOf(l)].likes=parseInt(this.feeds[this.feeds.indexOf(l)].likes)+1),this.user_session.addUser(n),this.users_datareq.changeUser(n).then(function(l){}),console.log(this.feeds[this.feeds.indexOf(l)]),this.feeds_datareq.changeFeed(this.feeds[this.feeds.indexOf(l)]).then(function(l){})},l.prototype.share=function(l){var n="Plantation le "+l.date,u="Plantation des arbres avec l'application mobile One Million Trees For Tunisia effectuée le "+l.date+" par "+l.user.name,e=this.loading.create();e.present(),this.social_share.share(n,u,null,l.image).then(function(l){e.dismiss(),console.log(l)})},l}(),jl=function(){function l(l){this.navCtrl=l,window}return l.prototype.ionViewDidLoad=function(){},l.prototype.goToMap=function(){this.navCtrl.push(zl,{},{animate:!1})},l.prototype.goToFeed=function(){this.navCtrl.push(Tl,{},{animate:!1})},l.prototype.goToCompte=function(){this.navCtrl.push(Fl,{},{animate:!1})},l.prototype.callIT=function(l){console.log(l),window.open=l},l}(),Dl=function(){function l(l,n,u){var e=this;this.navCtrl=l,this.users_datareq=n,this.user_session=u,window,this.users_datareq.getUsers().then(function(l){e.users=l})}return l.prototype.ionViewDidLoad=function(){},l.prototype.goToMap=function(){this.navCtrl.pop()},l}(),Ll=function(){function l(l,n,u,e){this.navCtrl=l,this.users_datareq=n,this.user_session=u,this.alert=e,window}return l.prototype.ionViewDidLoad=function(){},l.prototype.plantByLocation=function(){this.navCtrl.pop(),this.navCtrl.push(zl,{plantation:0})},l.prototype.plantByCoords=function(){this.lat.nativeElement.value&&this.lng.nativeElement.value?(this.navCtrl.pop(),this.navCtrl.push(zl,{plantation:1,coords:{latitude:parseFloat(this.lat.nativeElement.value),longitude:parseFloat(this.lng.nativeElement.value)}})):this.alert.create({title:"Impossible de planter !",subTitle:"Vérifier les coordonnées que vous avez ajoutées",buttons:["OK"]}).present()},l.prototype.goToMap=function(){this.navCtrl.pop()},l}(),El=this&&this.__decorate||function(l,n,u,e){var t,i=arguments.length,o=i<3?n:null===e?e=Object.getOwnPropertyDescriptor(n,u):e;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(l,n,u,e);else for(var a=l.length-1;a>=0;a--)(t=l[a])&&(o=(i<3?t(o):i>3?t(n,u,o):t(n,u))||o);return i>3&&o&&Object.defineProperty(n,u,o),o},Ul=this&&this.__metadata||function(l,n){if("object"==typeof Reflect&&"function"==typeof Reflect.metadata)return Reflect.metadata(l,n)},zl=xl=function(){function l(l,n,u,e,t,i,o,a,s,r,_){this.navCtrl=l,this.platform=n,this.geolocation=u,this.camera=e,this.user_session=t,this.users_datareq=i,this.feeds_datareq=o,this.loading=a,this.alert=s,this.verification=r,this.navParams=_,this.greenClicked=!1,this.grayClicked=!1,this.bgImage="",this.name="",this.coords=[],this.otherUsersCoords=[],this.selectedMarker={},this.totalPlant=0,this.imgURL=null,this.showEditInputField=!1,this.doEditImgeField=!1;var c=_.get("plantation"),d=_.get("coords");console.log(c),console.log(d),0!=c&&1!=c||(0==c?this.addGrayMarker():1==c&&d?d.latitude&&d.longitude&&this.plantFromCoords(d):this.alert.create({title:"Impossible de planter !",subTitle:"Vérifier votre GPS ou bien les coordonnées que vous avez ajoutées",buttons:["OK"]}).present())}return l.prototype.ionViewDidLoad=function(){var l=this;this.verification.internet().then(function(n){l.verification.gps().then(function(n){l.users_datareq.getCoordsOfOtherUsers(l.user_session.getUser()._id).then(function(n){l.otherUsersCoords=n,l.bgImage=l.user_session.getUser().photo,l.name=l.user_session.getUser().name,l.coords=l.user_session.getUser().coords,l.totalPlant=l.user_session.getUser().totalArbres?l.user_session.getUser().totalArbres:0,l.loadMap()})})})},l.prototype.loadMap=function(){var l=this,n=new google.maps.LatLngBounds,u=0,e=0;if(this.coords=this.coords.concat(this.otherUsersCoords),console.log(this.coords),this.coords.length>0){for(var t=0,i=this.coords;t<i.length;t++)u+=(_=i[t]).lat,e+=_.lng;u/=this.coords.length,e/=this.coords.length;var o={center:new google.maps.LatLng(u,e),mapTypeId:google.maps.MapTypeId.ROADMAP,scrollwheel:!1,minZoom:6};this.map=new google.maps.Map(this.mapElement.nativeElement,o);for(var a=this,s=0,r=this.coords;s<r.length;s++){var _=r[s];!function(u){var e=new google.maps.LatLng({lat:u.lat,lng:u.lng});if(n.extend(u),a.map.fitBounds(n),u.color){var t=new google.maps.Marker({map:a.map,position:e,icon:"http://www.veronia.tn/data/media/images/"+u.color+"Marker.png"});google.maps.event.addListener(t,"click",function(){if(l.selectedMarker=u,"green"==u.color)l.greenClicked=!0;else if("gray"==u.color){l.grayClicked=!0;var n=l.loading.create();n.present(),console.log(u),u.date_id?W.a.storage().ref().child("PlantationIMG/"+l.user_session.getUser()._id+"id"+u.date_id+".png").getDownloadURL().then(function(u){n.dismiss(),l.imgURL=u||null}).catch(function(l){n.dismiss()}):(l.imgURL=null,n.dismiss())}})}else{var i=new google.maps.InfoWindow({content:'<div class="infoWindow"><div class="iwOverlay"></div><img border="0" class="infoWindowImg" align="Left" src="'+u.image+'"> <b>'+u.number.toString()+"</b></div>"}),o=new google.maps.Marker({map:a.map,position:e,icon:"http://www.veronia.tn/data/media/images/otherMarkers.png"});google.maps.event.addListener(o,"click",function(){i.open(l.map,o)})}}(_)}}else this.geolocation.getCurrentPosition().then(function(n){var u={center:new google.maps.LatLng(n.coords.latitude,n.coords.longitude),mapTypeId:google.maps.MapTypeId.ROADMAP,scrollwheel:!1,zoom:8};l.map=new google.maps.Map(l.mapElement.nativeElement,u)}).catch(function(l){alert(JSON.stringify(l))})},l.prototype.deleteCoord=function(){var l=this;this.alert.create({title:"Supprimer cette plantation",message:"Voulez vous supprimer cette plantation ?",buttons:[{text:"Cancel",role:"cancel",handler:function(){}},{text:"Supprimer",role:"ok",handler:function(){var n=l.user_session.getUser();n.coords=n.coords.filter(function(n){return n.lat!=l.selectedMarker.lat||n.lng!=l.selectedMarker.lng}),parseInt(l.selectedMarker.number)&&(n.totalArbres=parseInt(n.totalArbres)-parseInt(l.selectedMarker.number)),l.users_datareq.changeUser(n).then(function(u){l.user_session.addUser(n),l.ionViewDidLoad()})}}]}).present()},l.prototype.editMarker=function(){var l=this,n=null;if(this.showEditInputField&&this.nbrAjoutGray.nativeElement.value?(n||(n=this.user_session.getUser()),n.totalArbres=parseInt(n.totalArbres)-this.selectedMarker.number+parseInt(this.nbrAjoutGray.nativeElement.value),this.coords[this.coords.indexOf(this.selectedMarker)].number=this.nbrAjoutGray.nativeElement.value,this.selectedMarker.number=this.nbrAjoutGray.nativeElement.value,n.coords=this.coords,this.totalPlant=n.totalArbres,this.users_datareq.changeUser(n).then(function(u){l.user_session.addUser(n),l.ionViewDidLoad(),l.showEditInputField=!1,l.doEditImgeField=!1})):this.showEditInputField&&this.alert.create({title:"Donnée manquante !",subTitle:"Ajoutez le nombre des arbres plantées",buttons:["OK"]}).present(),this.doEditImgeField){var u=new Date,e=this.loading.create();e.present();var t=("0"+u.getDate()).toString().substr(("0"+u.getDate()).toString().length-2,2)+"/"+("0"+(u.getMonth()+1)).toString().substr(("0"+(u.getMonth()+1)).toString().length-2,2)+"/"+u.getFullYear().toString(),i="PlantationIMG/"+this.user_session.getUser()._id+"id"+this.selectedMarker.date_id+".png";W.a.storage().ref().child(i).getDownloadURL().then(function(u){if(e.dismiss(),u){n||(n=l.user_session.getUser());var i={lat:l.selectedMarker.lat,lng:l.selectedMarker.lng,color:"green",number:l.selectedMarker.number,date:t,image:u,species:"noSpecies",date_id:l.selectedMarker.date_id};l.coords[l.coords.indexOf(l.selectedMarker)]=i,n.coords[l.coords.indexOf(l.selectedMarker)]=i,l.selectedMarker=i;var o={user:l.user_session.getUser(),date:t,image:u,likes:0,lat:l.selectedMarker.lat,lng:l.selectedMarker.lng};l.feeds_datareq.postFeed(o).then(function(l){}),l.users_datareq.changeUser(n).then(function(u){l.user_session.addUser(n),l.ionViewDidLoad(),l.showEditInputField=!1,l.doEditImgeField=!1})}else l.alert.create({title:"Donnée manquante !",subTitle:"Ajoutez une photo de la plantation",buttons:["OK"]}).present()})}},l.prototype.plantFromCoords=function(l){var n=new google.maps.Geocoder,u=new google.maps.LatLng(l.latitude,l.longitude),e=this;n.geocode({latLng:u},function(n,u){if(u==google.maps.GeocoderStatus.OK){if(n[1]){var t=n[1].address_components,i=t[t.length-1].short_name;if(console.log(i),"TN"==i){var o=e.user_session.getUser();e.users_datareq.coordsExist(o._id,l.latitude,l.longitude).then(function(n){0==n?(o.coords.push({lat:l.latitude,lng:l.longitude,color:"gray"}),e.coords.push({lat:l.latitude,lng:l.longitude,color:"gray"}),o.totalArbres||(o.totalArbres=0),e.users_datareq.changeUser(o).then(function(l){e.user_session.addUser(o),e.ionViewDidLoad()})):e.alert.create({title:"Changez votre localisation !",subTitle:"Vous avez déjà utilisé cette position !",buttons:["OK"]}).present()})}else(a=e.alert.create({title:"Essayez de nouveau !",subTitle:"Vérifiez que votre localisation est située dans la Tunisie !",buttons:["OK"]})).present()}}else{var a=e.alert.create({title:"Essayez de nouveau !",subTitle:"Vérifiez que vous avez autorisé la localisation",buttons:["OK"]});a.present()}})},l.prototype.addGrayMarker=function(){var l=this;console.log(xl.prototype),console.log(this);var n=this.loading.create();n.present(),this.verification.gps().then(function(u){u?l.geolocation.getCurrentPosition().then(function(u){n.dismiss();var e={};"coords"in u&&("latitude"in u.coords&&(e.latitude=u.coords.latitude),"longitude"in u.coords&&(e.longitude=u.coords.longitude)),l.plantFromCoords(e)}).catch(function(u){n.dismiss(),l.alert.create({title:"Essayez de nouveau !",subTitle:"Vérifiez que vous avez autorisé la localisation",buttons:["OK"]}).present()}):n.dismiss()})},l.prototype.turnIntoGreen=function(){var l=this,n=new Date,u=this.loading.create();u.present();var e=("0"+n.getDate()).toString().substr(("0"+n.getDate()).toString().length-2,2)+"/"+("0"+(n.getMonth()+1)).toString().substr(("0"+(n.getMonth()+1)).toString().length-2,2)+"/"+n.getFullYear().toString(),t="PlantationIMG/"+this.user_session.getUser()._id+"id"+this.selectedMarker.date_id+".png";W.a.storage().ref().child(t).getDownloadURL().then(function(n){if(u.dismiss(),n&&l.nbrAjoutGray.nativeElement.value){var t={lat:l.selectedMarker.lat,lng:l.selectedMarker.lng,color:"green",number:l.nbrAjoutGray.nativeElement.value,date:e,image:n,species:"noSpecies",date_id:l.selectedMarker.date_id};l.coords[l.coords.indexOf(l.selectedMarker)]=t;var i=l.user_session.getUser();i.coords=l.coords,i.totalArbres=parseInt(i.totalArbres)+parseInt(l.nbrAjoutGray.nativeElement.value),l.totalPlant=i.totalArbres,l.users_datareq.changeUser(i).then(function(n){l.user_session.addUser(i),l.ionViewDidLoad(),l.grayClicked=!1});var o={user:l.user_session.getUser(),date:e,image:n,likes:0,lat:l.selectedMarker.lat,lng:l.selectedMarker.lng};l.feeds_datareq.postFeed(o).then(function(l){})}else l.alert.create({title:"Donnée manquante !",subTitle:"Ajoutez le nombre des arbres plantées",buttons:["OK"]}).present()}).catch(function(n){u.dismiss(),l.alert.create({title:"Donnée manquante !",subTitle:"Ajoutez une photo de la plantation",buttons:["OK"]}).present()})},l.prototype.takePhoto=function(){var l=this;this.camera.getPicture({quality:95,destinationType:this.camera.DestinationType.DATA_URL,sourceType:this.camera.PictureSourceType.CAMERA,allowEdit:!1,encodingType:this.camera.EncodingType.PNG,targetWidth:500,targetHeight:500,saveToPhotoAlbum:!1}).then(function(n){var u=l.loading.create();u.present();var e=(new Date).getTime().toString();W.a.storage().ref("PlantationIMG/"+l.user_session.getUser()._id+"id"+e+".png").putString(n,"base64",{contentType:"image/png"}).then(function(n){l.coords[l.coords.indexOf(l.selectedMarker)].date_id=e,l.selectedMarker.date_id=e;var t=l.user_session.getUser();t.coords=l.coords,l.users_datareq.changeUser(t).then(function(n){W.a.storage().ref().child("PlantationIMG/"+l.user_session.getUser()._id+"id"+l.selectedMarker.date_id+".png").getDownloadURL().then(function(n){n?(l.imgURL=n,l.selectedMarker.image=n):l.imgURL=null,u.dismiss()}).catch(function(l){console.log(l),u.dismiss()})})})},function(l){})},l.prototype.gotoPodium=function(){this.navCtrl.push(Dl,{animate:!0,animation:"md-transition",duration:1e3})},l.prototype.goToCRDA=function(){this.navCtrl.push(jl,{},{animate:!1})},l.prototype.goToCompte=function(){this.navCtrl.push(Fl,{},{animate:!1})},l.prototype.goToFeed=function(){this.navCtrl.push(Tl,{},{animate:!1})},l.prototype.goToPlantation=function(){this.navCtrl.push(Ll,{animate:!0,animation:"md-transition",duration:1e3})},l}();zl=xl=El([Object(N.j)({selector:"page-map",templateUrl:"map.html"}),Ul("design:paramtypes",["function"==typeof(Gl=void 0!==B.c&&B.c)&&Gl||Object,"function"==typeof(ql=void 0!==B.e&&B.e)&&ql||Object,"function"==typeof(Nl=void 0!==Il.a&&Il.a)&&Nl||Object,"function"==typeof(Bl=void 0!==$.a&&$.a)&&Bl||Object,"function"==typeof(Hl=void 0!==gl&&gl)&&Hl||Object,"function"==typeof(Vl=void 0!==cl&&cl)&&Vl||Object,"function"==typeof(Kl=void 0!==kl&&kl)&&Kl||Object,"function"==typeof($l=void 0!==B.b&&B.b)&&$l||Object,"function"==typeof(Xl=void 0!==B.a&&B.a)&&Xl||Object,"function"==typeof(Wl=void 0!==ul&&ul)&&Wl||Object,"function"==typeof(Jl=void 0!==B.d&&B.d)&&Jl||Object])],zl);var xl,Gl,ql,Nl,Bl,Hl,Vl,Kl,$l,Xl,Wl,Jl,Zl=function(){function l(l,n,u,e,t,i,o){this.navCtrl=l,this.platform=n,this.alert=u,this.user_session=e,this.users_datareq=t,this.loading=i,this.verification=o,window,console.log(this.user_session.getUser())}return l.prototype.validerCode=function(){var l=this;if(10!=this.code.nativeElement.value.length)this.messageerror="Veuillez vérifier le code !";else if(this.messageerror="",this.user_session.getUser().code==this.code.nativeElement.value){var n=this.user_session.getUser();n.verified=!0,this.users_datareq.changeUser(n).then(function(u){l.user_session.addUser(n),l.navCtrl.pop({animate:!1}),l.navCtrl.push(zl)})}else this.messageerror="Veuillez vérifier le code !"},l.prototype.changerEmail=function(){var l=this;if(console.log(this.email.nativeElement.value),/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/.test(this.email.nativeElement.value)){this.messageerroremail="";var n=this.user_session.getUser();n.email=this.email.nativeElement.value,this.users_datareq.changeMail(n).then(function(u){var e=u;if(e.user)if(e.user._id){l.user_session.addUser(n),l.email.nativeElement.value="";var t=l.alert.create({title:"Votre e-mail a été changé !",subTitle:"Vous pouvez trouver votre code dans "+n.email,buttons:[{text:"OK",handler:function(){t.dismiss()}}]});t.present()}else l.messageerroremail="Adresse e-mail utilisée!";else l.messageerroremail="Adresse e-mail invalide!"})}else this.messageerroremail="Adresse e-mail invalide!"},l}(),Yl=function(){function l(l,n,u,e,t,i,o,a,s,r){this.navCtrl=l,this.platform=n,this.facebook=u,this.google=e,this.alert=t,this.user_session=i,this.users_datareq=o,this.loading=a,this.verification=s,this.splashScreen=r,this.userProfile=null,window,this.verification.internet().then(function(l){})}return l.prototype.googleLogin=function(){var l=this;this.verification.internet().then(function(n){if(n)if(l.platform.is("mobileweb")){console.log("in serve");var u={_id:"59c95c6fa6822f0004994344",name:"Achraf Hakim",email:"www.achraf.hakim@gmail.com",photo:"https://scontent.ftun3-1.fna.fbcdn.net/v/t1.0-9/18157340_1914055275543035_3013843365488330292_n.jpg?oh=3acfd7a7f02301eb25e9a5b471a3d05c&oe=5A59F29E",coords:[],totalArbres:0};l.user_session.addUser(u),l.navCtrl.push(zl)}else l.google.login({}).then(function(l){alert(JSON.stringify(l))},function(l){alert(JSON.stringify(l))})})},l.prototype.facebookLogin=function(){var l=this;this.verification.internet().then(function(n){if(n)if(l.platform.is("mobileweb")||l.platform.is("core")){var u={name:"TEST",email:"test.test@test.test",facebook_email:"test.test@test.test",photo:"https://graph.facebook.com/1994607004154528/picture?type=large",coords:[],totalArbres:0,code:"",verified:!1,likes:[]};l.users_datareq.loginUser(u).then(function(n){var u=n;l.user_session.addUser(u.user),l.navCtrl.push(u.user.verified?zl:Zl)})}else{var e=l.loading.create();e.present(),l.facebook.login(["email"]).then(function(n){l.facebook.api("/me?fields=name,email",[]).then(function(u){e.dismiss();var t={name:u.name,facebook_email:u.email,photo:"https://graph.facebook.com/"+n.authResponse.userID.toString()+"/picture?type=large",coords:[],totalArbres:0,code:"",verified:!1,likes:[]};l.users_datareq.loginUser(t).then(function(n){var u=n;l.user_session.addUser(u.user),l.navCtrl.push(u.user.verified?zl:Zl)})})}).catch(function(n){var u=l.loading.create();u.present(),l.facebook.login(["email"]).then(function(n){l.facebook.api("/me?fields=name,email",[]).then(function(e){u.dismiss();var t={name:e.name,email:e.email,photo:"https://graph.facebook.com/"+n.authResponse.userID.toString()+"/picture?type=large",coords:[],totalArbres:0,code:"",verified:!1,likes:[]};l.users_datareq.loginUser(t).then(function(n){var u=n;l.user_session.addUser(u.user),l.navCtrl.push(u.user.verified?zl:Zl)})})}).catch(function(n){l.alert.create({title:"Veuillez essayer de nouveau !",subTitle:"Vérifiez votre connection internet",buttons:["OK"]}).present()})})}})},l}(),Ql=function(){return function(l,n,u,e){this.verification=e,this.rootPage=Yl,l.ready().then(function(){n.styleDefault(),u.hide(),W.a.initializeApp({apiKey:"AIzaSyA02CSPbdyqL1K1CpJb_Aj8to-ITdwguq0",authDomain:"million-trees-for-tunisia.firebaseapp.com",databaseURL:"https://million-trees-for-tunisia.firebaseio.com",storageBucket:"million-trees-for-tunisia.appspot.com",messagingSenderId:"870601950983"})})}}(),ln=u(183),nn=function(){return function(){}}(),un=u(22),en=u(136),tn=u(9),on=u(52),an=u(6),sn=u(15),rn=u(101),_n=u(100),cn=u(137),dn=u(99),hn=u(36),pn=u(95),fn=u(96),mn=u(65),gn=u(14),bn=u(37),vn=u(94),yn=u(35),kn=u(277),Cn=u(278),wn=u(279),Pn=u(280),In=u(64),An=u(7),On=u(12),Rn=u(1),Mn=u(4),Fn=u(32),Sn=u(53),Tn=[],jn=N._3({encapsulation:2,styles:Tn,data:{}}),Dn=N._2("ng-component",Ql,function(l){return N._25(0,[(l()(),N._5(0,null,null,1,"ng-component",[],null,null,null,e,jn)),N._4(49152,null,0,Ql,[Mn.a,V.a,H.a,ul],null,null)],null,null)},{},{},[]),Ln=u(24),En=u(16),Un=u(18),zn=[],xn=N._3({encapsulation:2,styles:zn,data:{}}),Gn=N._2("page-connexion",Yl,function(l){return N._25(0,[(l()(),N._5(0,null,null,1,"page-connexion",[],null,null,null,t,xn)),N._4(49152,null,0,Yl,[On.a,Mn.a,K.a,J.a,hn.a,gl,cl,bn.a,ul,H.a],null,null)],null,null)},{},{},[]),qn=u(30),Nn=[],Bn=N._3({encapsulation:2,styles:Nn,data:{}}),Hn=N._2("page-map",zl,function(l){return N._25(0,[(l()(),N._5(0,null,null,1,"page-map",[],null,null,null,v,Bn)),N._4(49152,null,0,zl,[On.a,Mn.a,Il.a,$.a,gl,cl,kl,bn.a,hn.a,ul,qn.a],null,null)],null,null)},{},{},[]),Vn=[],Kn=N._3({encapsulation:2,styles:Vn,data:{}}),$n=N._2("page-crda",jl,function(l){return N._25(0,[(l()(),N._5(0,null,null,1,"page-crda",[],null,null,null,y,Kn)),N._4(49152,null,0,jl,[On.a],null,null)],null,null)},{},{},[]),Xn=[],Wn=N._3({encapsulation:2,styles:Xn,data:{}}),Jn=N._2("page-ranking",Dl,function(l){return N._25(0,[(l()(),N._5(0,null,null,1,"page-ranking",[],null,null,null,R,Wn)),N._4(49152,null,0,Dl,[On.a,cl,gl],null,null)],null,null)},{},{},[]),Zn=[],Yn=N._3({encapsulation:2,styles:Zn,data:{}}),Qn=N._2("page-feed",Tl,function(l){return N._25(0,[(l()(),N._5(0,null,null,1,"page-feed",[],null,null,null,T,Yn)),N._4(49152,null,0,Tl,[On.a,Mn.a,gl,Sl.a,kl,cl,Al.a,bn.a],null,null)],null,null)},{},{},[]),lu=[],nu=N._3({encapsulation:2,styles:lu,data:{}}),uu=N._2("page-compte",Fl,function(l){return N._25(0,[(l()(),N._5(0,null,null,1,"page-compte",[],null,null,null,L,nu)),N._4(49152,null,0,Fl,[On.a,cl,gl],null,null)],null,null)},{},{},[]),eu=[],tu=N._3({encapsulation:2,styles:eu,data:{}}),iu=N._2("page-code",Zl,function(l){return N._25(0,[(l()(),N._5(0,null,null,1,"page-code",[],null,null,null,E,tu)),N._4(49152,null,0,Zl,[On.a,Mn.a,hn.a,gl,cl,bn.a,ul],null,null)],null,null)},{},{},[]),ou=[],au=N._3({encapsulation:2,styles:ou,data:{}}),su=N._2("page-confid",Ol,function(l){return N._25(0,[(l()(),N._5(0,null,null,1,"page-confid",[],null,null,null,U,au)),N._4(49152,null,0,Ol,[On.a,cl,gl],null,null)],null,null)},{},{},[]),ru=[],_u=N._3({encapsulation:2,styles:ru,data:{}}),cu=N._2("page-about",Rl,function(l){return N._25(0,[(l()(),N._5(0,null,null,1,"page-about",[],null,null,null,z,_u)),N._4(49152,null,0,Rl,[On.a,cl,gl],null,null)],null,null)},{},{},[]),du=[],hu=N._3({encapsulation:2,styles:du,data:{}}),pu=N._2("page-steps",Ml,function(l){return N._25(0,[(l()(),N._5(0,null,null,1,"page-steps",[],null,null,null,x,hu)),N._4(49152,null,0,Ml,[On.a,cl,gl],null,null)],null,null)},{},{},[]),fu=[],mu=N._3({encapsulation:2,styles:fu,data:{}}),gu=N._2("page-plantation",Ll,function(l){return N._25(0,[(l()(),N._5(0,null,null,1,"page-plantation",[],null,null,null,G,mu)),N._4(49152,null,0,Ll,[On.a,cl,gl,hn.a],null,null)],null,null)},{},{},[]),bu=u(59),vu=u(97),yu=u(139),ku=u(98),Cu=u(51),wu=this&&this.__extends||function(){var l=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(l,n){l.__proto__=n}||function(l,n){for(var u in n)n.hasOwnProperty(u)&&(l[u]=n[u])};return function(n,u){function e(){this.constructor=n}l(n,u),n.prototype=null===u?Object.create(u):(e.prototype=u.prototype,new e)}}(),Pu=function(l){function n(n){return l.call(this,n,[kn.a,Cn.a,wn.a,Dn,Gn,Hn,$n,Jn,Qn,uu,iu,su,cu,pu,gu],[Cn.a])||this}return wu(n,l),Object.defineProperty(n.prototype,"_BrowserXhr_26",{get:function(){return null==this.__BrowserXhr_26&&(this.__BrowserXhr_26=new Z.c),this.__BrowserXhr_26},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ResponseOptions_27",{get:function(){return null==this.__ResponseOptions_27&&(this.__ResponseOptions_27=new Z.b),this.__ResponseOptions_27},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_XSRFStrategy_28",{get:function(){return null==this.__XSRFStrategy_28&&(this.__XSRFStrategy_28=Z.j()),this.__XSRFStrategy_28},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_XHRBackend_29",{get:function(){return null==this.__XHRBackend_29&&(this.__XHRBackend_29=new Z.h(this._BrowserXhr_26,this._ResponseOptions_27,this._XSRFStrategy_28)),this.__XHRBackend_29},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_RequestOptions_30",{get:function(){return null==this.__RequestOptions_30&&(this.__RequestOptions_30=new Z.a),this.__RequestOptions_30},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Http_31",{get:function(){return null==this.__Http_31&&(this.__Http_31=Z.k(this._XHRBackend_29,this._RequestOptions_30)),this.__Http_31},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_LOCALE_ID_32",{get:function(){return null==this.__LOCALE_ID_32&&(this.__LOCALE_ID_32=N._16(this.parent.get(N.v,null))),this.__LOCALE_ID_32},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_NgLocalization_33",{get:function(){return null==this.__NgLocalization_33&&(this.__NgLocalization_33=new un.i(this._LOCALE_ID_32)),this.__NgLocalization_33},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_APP_ID_34",{get:function(){return null==this.__APP_ID_34&&(this.__APP_ID_34=N._7()),this.__APP_ID_34},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_IterableDiffers_35",{get:function(){return null==this.__IterableDiffers_35&&(this.__IterableDiffers_35=N._13()),this.__IterableDiffers_35},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_KeyValueDiffers_36",{get:function(){return null==this.__KeyValueDiffers_36&&(this.__KeyValueDiffers_36=N._15()),this.__KeyValueDiffers_36},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_DomSanitizer_37",{get:function(){return null==this.__DomSanitizer_37&&(this.__DomSanitizer_37=new q.s(this.parent.get(q.b))),this.__DomSanitizer_37},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Sanitizer_38",{get:function(){return null==this.__Sanitizer_38&&(this.__Sanitizer_38=this._DomSanitizer_37),this.__Sanitizer_38},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_HAMMER_GESTURE_CONFIG_39",{get:function(){return null==this.__HAMMER_GESTURE_CONFIG_39&&(this.__HAMMER_GESTURE_CONFIG_39=new dn.a),this.__HAMMER_GESTURE_CONFIG_39},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_EVENT_MANAGER_PLUGINS_40",{get:function(){return null==this.__EVENT_MANAGER_PLUGINS_40&&(this.__EVENT_MANAGER_PLUGINS_40=[new q.l(this.parent.get(q.b)),new q.p(this.parent.get(q.b)),new q.o(this.parent.get(q.b),this._HAMMER_GESTURE_CONFIG_39)]),this.__EVENT_MANAGER_PLUGINS_40},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_EventManager_41",{get:function(){return null==this.__EventManager_41&&(this.__EventManager_41=new q.e(this._EVENT_MANAGER_PLUGINS_40,this.parent.get(N.z))),this.__EventManager_41},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵDomSharedStylesHost_42",{get:function(){return null==this.__ɵDomSharedStylesHost_42&&(this.__ɵDomSharedStylesHost_42=new q.n(this.parent.get(q.b))),this.__ɵDomSharedStylesHost_42},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵDomRendererFactory2_43",{get:function(){return null==this.__ɵDomRendererFactory2_43&&(this.__ɵDomRendererFactory2_43=new q.m(this._EventManager_41,this._ɵDomSharedStylesHost_42)),this.__ɵDomRendererFactory2_43},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_RendererFactory2_44",{get:function(){return null==this.__RendererFactory2_44&&(this.__RendererFactory2_44=this._ɵDomRendererFactory2_43),this.__RendererFactory2_44},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵSharedStylesHost_45",{get:function(){return null==this.__ɵSharedStylesHost_45&&(this.__ɵSharedStylesHost_45=this._ɵDomSharedStylesHost_42),this.__ɵSharedStylesHost_45},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Testability_46",{get:function(){return null==this.__Testability_46&&(this.__Testability_46=new N.N(this.parent.get(N.z))),this.__Testability_46},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Meta_47",{get:function(){return null==this.__Meta_47&&(this.__Meta_47=new q.h(this.parent.get(q.b))),this.__Meta_47},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Title_48",{get:function(){return null==this.__Title_48&&(this.__Title_48=new q.j(this.parent.get(q.b))),this.__Title_48},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵi_49",{get:function(){return null==this.__ɵi_49&&(this.__ɵi_49=new _n.k),this.__ɵi_49},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FormBuilder_50",{get:function(){return null==this.__FormBuilder_50&&(this.__FormBuilder_50=new _n.c),this.__FormBuilder_50},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_AlertController_54",{get:function(){return null==this.__AlertController_54&&(this.__AlertController_54=new hn.a(this._App_9,this._Config_6)),this.__AlertController_54},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Events_55",{get:function(){return null==this.__Events_55&&(this.__Events_55=new pn.a),this.__Events_55},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Form_56",{get:function(){return null==this.__Form_56&&(this.__Form_56=new fn.a),this.__Form_56},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Haptic_57",{get:function(){return null==this.__Haptic_57&&(this.__Haptic_57=new mn.a(this._Platform_5)),this.__Haptic_57},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Keyboard_58",{get:function(){return null==this.__Keyboard_58&&(this.__Keyboard_58=new gn.a(this._Config_6,this._Platform_5,this.parent.get(N.z),this._DomController_7)),this.__Keyboard_58},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_LoadingController_59",{get:function(){return null==this.__LoadingController_59&&(this.__LoadingController_59=new bn.a(this._App_9,this._Config_6)),this.__LoadingController_59},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_LocationStrategy_60",{get:function(){return null==this.__LocationStrategy_60&&(this.__LocationStrategy_60=cn.b(this.parent.get(un.p),this._APP_BASE_HREF_52,this._Config_6)),this.__LocationStrategy_60},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Location_61",{get:function(){return null==this.__Location_61&&(this.__Location_61=new un.d(this._LocationStrategy_60)),this.__Location_61},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_UrlSerializer_62",{get:function(){return null==this.__UrlSerializer_62&&(this.__UrlSerializer_62=bu.d(this._App_9,this._DeepLinkConfigToken_11)),this.__UrlSerializer_62},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_DeepLinker_63",{get:function(){return null==this.__DeepLinker_63&&(this.__DeepLinker_63=Fn.b(this._App_9,this._UrlSerializer_62,this._Location_61,this._ModuleLoader_14,this.componentFactoryResolver)),this.__DeepLinker_63},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_TapClick_67",{get:function(){return null==this.__TapClick_67&&(this.__TapClick_67=new vn.a(this._Config_6,this._Platform_5,this._DomController_7,this._App_9,this._GestureController_10)),this.__TapClick_67},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_TransitionController_69",{get:function(){return null==this.__TransitionController_69&&(this.__TransitionController_69=new yn.a(this._Platform_5,this._Config_6)),this.__TransitionController_69},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_StatusBar_70",{get:function(){return null==this.__StatusBar_70&&(this.__StatusBar_70=new V.a),this.__StatusBar_70},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_SplashScreen_71",{get:function(){return null==this.__SplashScreen_71&&(this.__SplashScreen_71=new H.a),this.__SplashScreen_71},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Facebook_72",{get:function(){return null==this.__Facebook_72&&(this.__Facebook_72=new K.a),this.__Facebook_72},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Diagnostic_73",{get:function(){return null==this.__Diagnostic_73&&(this.__Diagnostic_73=new Y.a),this.__Diagnostic_73},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Network_74",{get:function(){return null==this.__Network_74&&(this.__Network_74=new Q.a),this.__Network_74},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Verification_75",{get:function(){return null==this.__Verification_75&&(this.__Verification_75=new ul(this._AlertController_54,this._Platform_5,this._Diagnostic_73,this._LoadingController_59,this._Network_74,this._SplashScreen_71)),this.__Verification_75},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_UsersDataRequests_76",{get:function(){return null==this.__UsersDataRequests_76&&(this.__UsersDataRequests_76=new cl(this._Http_31,this._LoadingController_59,this._Verification_75)),this.__UsersDataRequests_76},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FeedsDataRequests_77",{get:function(){return null==this.__FeedsDataRequests_77&&(this.__FeedsDataRequests_77=new kl(this._Http_31,this._LoadingController_59,this._Verification_75)),this.__FeedsDataRequests_77},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_UserSession_78",{get:function(){return null==this.__UserSession_78&&(this.__UserSession_78=new gl(this._Http_31)),this.__UserSession_78},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Geolocation_79",{get:function(){return null==this.__Geolocation_79&&(this.__Geolocation_79=new Il.a),this.__Geolocation_79},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_Camera_80",{get:function(){return null==this.__Camera_80&&(this.__Camera_80=new $.a),this.__Camera_80},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_NativeGeocoder_81",{get:function(){return null==this.__NativeGeocoder_81&&(this.__NativeGeocoder_81=new Al.a),this.__NativeGeocoder_81},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_GooglePlus_82",{get:function(){return null==this.__GooglePlus_82&&(this.__GooglePlus_82=new J.a),this.__GooglePlus_82},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_SocialSharing_83",{get:function(){return null==this.__SocialSharing_83&&(this.__SocialSharing_83=new Sl.a),this.__SocialSharing_83},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_GoogleMaps_84",{get:function(){return null==this.__GoogleMaps_84&&(this.__GoogleMaps_84=new ln.a),this.__GoogleMaps_84},enumerable:!0,configurable:!0}),n.prototype.createInternal=function(){return this._HttpModule_0=new Z.e,this._CommonModule_1=new un.b,this._ErrorHandler_2=new en.a,this._ConfigToken_3=null,this._PlatformConfigToken_4=vu.b(),this._Platform_5=Mn.b(this.parent.get(q.b),this._PlatformConfigToken_4,this.parent.get(N.z)),this._Config_6=Rn.c(this._ConfigToken_3,this._Platform_5),this._DomController_7=new tn.a(this._Platform_5),this._MenuController_8=new on.a,this._App_9=new an.a(this._Config_6,this._Platform_5,this._MenuController_8),this._GestureController_10=new sn.d(this._App_9),this._DeepLinkConfigToken_11=null,this._Compiler_12=new N.i,this._NgModuleLoader_13=new rn.a(this._Compiler_12),this._ModuleLoader_14=yu.c(this._NgModuleLoader_13,this),this._APP_INITIALIZER_15=[N._19,q.r(this.parent.get(q.i,null),this.parent.get(N.y,null)),ku.a(this._Config_6),pn.b(this._Platform_5,this._DomController_7),vn.b(this._Config_6,this._Platform_5,this._DomController_7,this._App_9,this._GestureController_10),yu.d(this._Config_6,this._DeepLinkConfigToken_11,this._ModuleLoader_14,this.parent.get(N.z))],this._ApplicationInitStatus_16=new N.d(this._APP_INITIALIZER_15),this._ɵf_17=new N._6(this.parent.get(N.z),this.parent.get(N.Z),this,this._ErrorHandler_2,this.componentFactoryResolver,this._ApplicationInitStatus_16),this._ApplicationRef_18=this._ɵf_17,this._ApplicationModule_19=new N.e(this._ApplicationRef_18),this._BrowserModule_20=new q.a(this.parent.get(q.a,null)),this._ɵba_21=new _n.j,this._FormsModule_22=new _n.d,this._ReactiveFormsModule_23=new _n.i,this._IonicModule_24=new cn.a,this._AppModule_25=new nn,this._AppRootToken_51=Ql,this._APP_BASE_HREF_52="/",this._AppModule_25},n.prototype.getInternal=function(l,n){return l===Z.e?this._HttpModule_0:l===un.b?this._CommonModule_1:l===N.m?this._ErrorHandler_2:l===Rn.b?this._ConfigToken_3:l===vu.a?this._PlatformConfigToken_4:l===Mn.a?this._Platform_5:l===Rn.a?this._Config_6:l===tn.a?this._DomController_7:l===on.a?this._MenuController_8:l===an.a?this._App_9:l===sn.d?this._GestureController_10:l===bu.a?this._DeepLinkConfigToken_11:l===N.i?this._Compiler_12:l===rn.a?this._NgModuleLoader_13:l===yu.b?this._ModuleLoader_14:l===N.c?this._APP_INITIALIZER_15:l===N.d?this._ApplicationInitStatus_16:l===N._6?this._ɵf_17:l===N.f?this._ApplicationRef_18:l===N.e?this._ApplicationModule_19:l===q.a?this._BrowserModule_20:l===_n.j?this._ɵba_21:l===_n.d?this._FormsModule_22:l===_n.i?this._ReactiveFormsModule_23:l===cn.a?this._IonicModule_24:l===nn?this._AppModule_25:l===Z.c?this._BrowserXhr_26:l===Z.g?this._ResponseOptions_27:l===Z.i?this._XSRFStrategy_28:l===Z.h?this._XHRBackend_29:l===Z.f?this._RequestOptions_30:l===Z.d?this._Http_31:l===N.v?this._LOCALE_ID_32:l===un.j?this._NgLocalization_33:l===N.b?this._APP_ID_34:l===N.t?this._IterableDiffers_35:l===N.u?this._KeyValueDiffers_36:l===q.c?this._DomSanitizer_37:l===N.I?this._Sanitizer_38:l===q.f?this._HAMMER_GESTURE_CONFIG_39:l===q.d?this._EVENT_MANAGER_PLUGINS_40:l===q.e?this._EventManager_41:l===q.n?this._ɵDomSharedStylesHost_42:l===q.m?this._ɵDomRendererFactory2_43:l===N.G?this._RendererFactory2_44:l===q.q?this._ɵSharedStylesHost_45:l===N.N?this._Testability_46:l===q.h?this._Meta_47:l===q.j?this._Title_48:l===_n.k?this._ɵi_49:l===_n.c?this._FormBuilder_50:l===Cu.a?this._AppRootToken_51:l===un.a?this._APP_BASE_HREF_52:l===hn.a?this._AlertController_54:l===pn.a?this._Events_55:l===fn.a?this._Form_56:l===mn.a?this._Haptic_57:l===gn.a?this._Keyboard_58:l===bn.a?this._LoadingController_59:l===un.e?this._LocationStrategy_60:l===un.d?this._Location_61:l===bu.b?this._UrlSerializer_62:l===Fn.a?this._DeepLinker_63:l===vn.a?this._TapClick_67:l===yn.a?this._TransitionController_69:l===V.a?this._StatusBar_70:l===H.a?this._SplashScreen_71:l===K.a?this._Facebook_72:l===Y.a?this._Diagnostic_73:l===Q.a?this._Network_74:l===ul?this._Verification_75:l===cl?this._UsersDataRequests_76:l===kl?this._FeedsDataRequests_77:l===gl?this._UserSession_78:l===Il.a?this._Geolocation_79:l===$.a?this._Camera_80:l===Al.a?this._NativeGeocoder_81:l===J.a?this._GooglePlus_82:l===Sl.a?this._SocialSharing_83:l===ln.a?this._GoogleMaps_84:n},n.prototype.destroyInternal=function(){this._ɵf_17.ngOnDestroy(),this.__ɵDomSharedStylesHost_42&&this._ɵDomSharedStylesHost_42.ngOnDestroy()},n}(N._0),Iu=new N.w(Pu,nn);Object(N.T)(),Object(q.k)().bootstrapModuleFactory(Iu)}},[184]);
+webpackJsonp([0],{
+
+/***/ 154:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FeedsDataRequests; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_verification__ = __webpack_require__(47);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var FeedsDataRequests = (function () {
+    function FeedsDataRequests(http, loading, verification) {
+        this.http = http;
+        this.loading = loading;
+        this.verification = verification;
+    }
+    FeedsDataRequests.prototype.postFeed = function (feed) {
+        var _this = this;
+        return new Promise(function (resolve) {
+            _this.verification.internet().then(function (response) {
+                if (response) {
+                    var loading_1 = _this.loading.create();
+                    loading_1.present();
+                    _this.http.post('http://www.veronia.tn/mtft/ws_feeds', feed)
+                        .map(function (res) { return res.json(); })
+                        .subscribe(function (data) {
+                        loading_1.dismiss();
+                        console.log(data);
+                        resolve(data);
+                    });
+                }
+                else {
+                    return new Promise(function (resolve) { resolve(false); });
+                }
+            });
+        });
+    };
+    FeedsDataRequests.prototype.getFeeds = function () {
+        var _this = this;
+        return new Promise(function (resolve) {
+            _this.verification.internet().then(function (response) {
+                if (response) {
+                    var loading_2 = _this.loading.create();
+                    loading_2.present();
+                    _this.http.get('http://www.veronia.tn/mtft/ws_feeds/')
+                        .map(function (res) { return res.json(); })
+                        .subscribe(function (data) {
+                        loading_2.dismiss();
+                        console.log(data);
+                        resolve(data);
+                    });
+                }
+                else {
+                    return new Promise(function (resolve) { resolve(false); });
+                }
+            });
+        });
+    };
+    FeedsDataRequests.prototype.changeFeed = function (feed) {
+        var _this = this;
+        return new Promise(function (resolve) {
+            _this.verification.internet().then(function (response) {
+                if (response) {
+                    var loading_3 = _this.loading.create();
+                    loading_3.present();
+                    _this.http.post('http://www.veronia.tn/mtft/ws_feeds/' + feed._id, feed)
+                        .map(function (res) { return res.json(); })
+                        .subscribe(function (data) {
+                        loading_3.dismiss();
+                        console.log(data);
+                        resolve(data);
+                    });
+                }
+                else {
+                    return new Promise(function (resolve) { resolve(false); });
+                }
+            });
+        });
+    };
+    return FeedsDataRequests;
+}());
+FeedsDataRequests = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["e" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_4__services_verification__["a" /* Verification */]])
+], FeedsDataRequests);
+
+//# sourceMappingURL=feeds-data-requests.js.map
+
+/***/ }),
+
+/***/ 163:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 163;
+
+/***/ }),
+
+/***/ 205:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 205;
+
+/***/ }),
+
+/***/ 25:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UsersDataRequests; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_verification__ = __webpack_require__(47);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var UsersDataRequests = (function () {
+    function UsersDataRequests(http, loading, verification) {
+        this.http = http;
+        this.loading = loading;
+        this.verification = verification;
+    }
+    UsersDataRequests.prototype.getUsers = function () {
+        var _this = this;
+        return new Promise(function (resolve) {
+            _this.verification.internet().then(function (response) {
+                if (response) {
+                    var loading_1 = _this.loading.create();
+                    loading_1.present();
+                    _this.http.get('http://www.veronia.tn/mtft/ws_users')
+                        .map(function (res) { return res.json(); })
+                        .subscribe(function (data) {
+                        loading_1.dismiss();
+                        console.log(data);
+                        resolve(data);
+                    });
+                }
+                else {
+                    return new Promise(function (resolve) { resolve(false); });
+                }
+            });
+        });
+    };
+    UsersDataRequests.prototype.getCoordsOfOtherUsers = function (user_id) {
+        var _this = this;
+        return new Promise(function (resolve) {
+            _this.verification.internet().then(function (response) {
+                if (response) {
+                    var loading_2 = _this.loading.create();
+                    loading_2.present();
+                    _this.http.get('http://www.veronia.tn/mtft/ws_users/' + user_id)
+                        .map(function (res) { return res.json(); })
+                        .subscribe(function (data) {
+                        loading_2.dismiss();
+                        console.log("other coords");
+                        console.log(data);
+                        resolve(data);
+                    });
+                }
+                else {
+                    return new Promise(function (resolve) { resolve(false); });
+                }
+            });
+        });
+    };
+    UsersDataRequests.prototype.coordsExist = function (user_id, lat, lng) {
+        var _this = this;
+        return new Promise(function (resolve) {
+            _this.verification.internet().then(function (response) {
+                if (response) {
+                    var loading_3 = _this.loading.create();
+                    loading_3.present();
+                    _this.http.get('http://www.veronia.tn/mtft/ws_users/coords/' + user_id + '/' + lat.toString() + '/' + lng.toString())
+                        .map(function (res) { return res.json(); })
+                        .subscribe(function (data) {
+                        loading_3.dismiss();
+                        console.log(data);
+                        resolve(data);
+                    });
+                }
+                else {
+                    return new Promise(function (resolve) { resolve(false); });
+                }
+            });
+        });
+    };
+    UsersDataRequests.prototype.loginUser = function (user) {
+        var _this = this;
+        return new Promise(function (resolve) {
+            _this.verification.internet().then(function (response) {
+                if (response) {
+                    var loading_4 = _this.loading.create();
+                    loading_4.present();
+                    _this.http.post('http://www.veronia.tn/mtft/ws_login', user)
+                        .map(function (res) { return res.json(); })
+                        .subscribe(function (data) {
+                        loading_4.dismiss();
+                        console.log(data);
+                        resolve(data);
+                    });
+                }
+                else {
+                    return new Promise(function (resolve) { resolve(false); });
+                }
+            });
+        });
+    };
+    UsersDataRequests.prototype.changeMail = function (user) {
+        var _this = this;
+        return new Promise(function (resolve) {
+            _this.verification.internet().then(function (response) {
+                if (response) {
+                    var loading_5 = _this.loading.create();
+                    loading_5.present();
+                    _this.http.post('http://www.veronia.tn/mtft/ws_changemail', user)
+                        .map(function (res) { return res.json(); })
+                        .subscribe(function (data) {
+                        loading_5.dismiss();
+                        console.log(data);
+                        resolve(data);
+                    });
+                }
+                else {
+                    return new Promise(function (resolve) { resolve(false); });
+                }
+            });
+        });
+    };
+    UsersDataRequests.prototype.changeUser = function (user) {
+        var _this = this;
+        return new Promise(function (resolve) {
+            _this.verification.internet().then(function (response) {
+                if (response) {
+                    var loading_6 = _this.loading.create();
+                    loading_6.present();
+                    _this.http.post('http://www.veronia.tn/mtft/ws_users/' + user._id, user)
+                        .map(function (res) { return res.json(); })
+                        .subscribe(function (data) {
+                        loading_6.dismiss();
+                        console.log(data);
+                        resolve(data);
+                    });
+                }
+                else {
+                    return new Promise(function (resolve) { resolve(false); });
+                }
+            });
+        });
+    };
+    return UsersDataRequests;
+}());
+UsersDataRequests = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["e" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_4__services_verification__["a" /* Verification */]])
+], UsersDataRequests);
+
+//# sourceMappingURL=users-data-requests.js.map
+
+/***/ }),
+
+/***/ 26:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserSession; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var UserSession = (function () {
+    function UserSession(http) {
+        this.http = http;
+        this.sessionUser = [];
+    }
+    UserSession.prototype.addUser = function (user) {
+        if (this.sessionUser.length > 0) {
+            this.sessionUser = [];
+        }
+        this.sessionUser.push(user);
+    };
+    UserSession.prototype.deleteUser = function () {
+        this.sessionUser = [];
+    };
+    UserSession.prototype.getUser = function () {
+        if (this.sessionUser.length > 0) {
+            return this.sessionUser[this.sessionUser.length - 1];
+        }
+        else
+            return false;
+    };
+    return UserSession;
+}());
+UserSession = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
+], UserSession);
+
+//# sourceMappingURL=user-session.js.map
+
+/***/ }),
+
+/***/ 290:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ConnexionPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_splash_screen__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_facebook__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_plus__ = __webpack_require__(291);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_users_data_requests__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_user_session__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_map_map__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_code_code__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__services_verification__ = __webpack_require__(47);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+var ConnexionPage = (function () {
+    function ConnexionPage(navCtrl, platform, facebook, google, alert, user_session, users_datareq, loading, verification, splashScreen) {
+        this.navCtrl = navCtrl;
+        this.platform = platform;
+        this.facebook = facebook;
+        this.google = google;
+        this.alert = alert;
+        this.user_session = user_session;
+        this.users_datareq = users_datareq;
+        this.loading = loading;
+        this.verification = verification;
+        this.splashScreen = splashScreen;
+        this.userProfile = null;
+        window.caches.delete;
+        this.verification.internet().then(function (response) {
+        });
+    }
+    ConnexionPage.prototype.googleLogin = function () {
+        var _this = this;
+        this.verification.internet().then(function (response) {
+            if (response) {
+                if (_this.platform.is('mobileweb')) {
+                    console.log('in serve');
+                    var user = {
+                        _id: "59c95c6fa6822f0004994344",
+                        name: "Achraf Hakim",
+                        email: "www.achraf.hakim@gmail.com",
+                        photo: "https://scontent.ftun3-1.fna.fbcdn.net/v/t1.0-9/18157340_1914055275543035_3013843365488330292_n.jpg?oh=3acfd7a7f02301eb25e9a5b471a3d05c&oe=5A59F29E",
+                        coords: [],
+                        totalArbres: 0
+                    };
+                    _this.user_session.addUser(user);
+                    _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__pages_map_map__["a" /* MapPage */]);
+                }
+                else {
+                    _this.google.login({})
+                        .then(function (user) {
+                        alert(JSON.stringify(user));
+                    }, function (error) {
+                        alert(JSON.stringify(error));
+                    });
+                    //               let loading = this.loading.create();
+                    //               loading.present();
+                    //               const googleCredential = firebase.auth.GoogleAuthProvider
+                    //                   .credential(res.idToken);
+                    //
+                    //               firebase.auth().signInWithCredential(googleCredential)
+                    //             .then( response => {
+                    //               loading.dismiss();
+                    //                 // this.userProfile = success;
+                    //                 // let user = {
+                    //                 //   name: this.userProfile.displayName,
+                    //                 //   email: this.userProfile.email,
+                    //                 //   photo: this.userProfile.photoURL,
+                    //                 //   totalArbres: 0,
+                    //                 //   coords: []
+                    //                 // }
+                    //                 //
+                    //                 // this.users_datareq.isRegistred(this.userProfile.email.toString()).then((responseregistered)=>{
+                    //                 //   let response_isRegistres : any = responseregistered;
+                    //                 //   if(response_isRegistres.length >0) {
+                    //                 //     this.user_session.addUser(response_isRegistres[0]);
+                    //                 //     this.navCtrl.push(MapPage);
+                    //                 //   }
+                    //                 //   else {
+                    //                 //     this.users_datareq.addUser(user).then((result)=>{
+                    //                 //       this.user_session.addUser(user);
+                    //                 //       this.navCtrl.push(MapPage);
+                    //                 //     })
+                    //                 //   }
+                    //                 // })
+                    //             }).catch((error)=>{
+                    //               loading.dismiss();
+                    //             });
+                    //       }).catch((err) => {
+                    //         let alert = this.alert.create({
+                    //             title: "Ce service est temporairement indisponible !",
+                    //             subTitle: "La nouvelle version va autoriser ce type de login",
+                    //             buttons: ["OK"]
+                    //         });
+                    //         alert.present();
+                }
+            }
+        });
+    };
+    ConnexionPage.prototype.facebookLogin = function () {
+        var _this = this;
+        this.verification.internet().then(function (response) {
+            if (response) {
+                if (_this.platform.is('mobileweb') || _this.platform.is('core')) {
+                    var user = {
+                        name: "TEST",
+                        email: "test.test@test.test",
+                        facebook_email: "test.test@test.test",
+                        photo: "https://graph.facebook.com/1994607004154528/picture?type=large",
+                        coords: [],
+                        totalArbres: 0,
+                        code: '',
+                        verified: false,
+                        likes: []
+                    };
+                    _this.users_datareq.loginUser(user).then(function (responseLogin) {
+                        var user_json = responseLogin;
+                        _this.user_session.addUser(user_json.user);
+                        if (!user_json.user.verified)
+                            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__pages_code_code__["a" /* CodePage */]);
+                        else
+                            _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__pages_map_map__["a" /* MapPage */]);
+                    });
+                }
+                else {
+                    var loading_1 = _this.loading.create();
+                    loading_1.present();
+                    _this.facebook.login(['email']).then(function (response) {
+                        _this.facebook.api("/me?fields=name,email", []).then(function (userProfile) {
+                            loading_1.dismiss();
+                            var user = {
+                                name: userProfile.name,
+                                facebook_email: userProfile.email,
+                                photo: "https://graph.facebook.com/" + response.authResponse.userID.toString() + "/picture?type=large",
+                                coords: [],
+                                totalArbres: 0,
+                                code: '',
+                                verified: false,
+                                likes: []
+                            };
+                            _this.users_datareq.loginUser(user).then(function (responseLogin) {
+                                var user_json = responseLogin;
+                                _this.user_session.addUser(user_json.user);
+                                if (!user_json.user.verified)
+                                    _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__pages_code_code__["a" /* CodePage */]);
+                                else
+                                    _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__pages_map_map__["a" /* MapPage */]);
+                            });
+                        });
+                    }).catch(function (error) {
+                        var loading = _this.loading.create();
+                        loading.present();
+                        _this.facebook.login(['email']).then(function (response) {
+                            _this.facebook.api("/me?fields=name,email", []).then(function (userProfile) {
+                                loading.dismiss();
+                                var user = {
+                                    name: userProfile.name,
+                                    email: userProfile.email,
+                                    photo: "https://graph.facebook.com/" + response.authResponse.userID.toString() + "/picture?type=large",
+                                    coords: [],
+                                    totalArbres: 0,
+                                    code: '',
+                                    verified: false,
+                                    likes: []
+                                };
+                                _this.users_datareq.loginUser(user).then(function (responseLogin) {
+                                    var user_json = responseLogin;
+                                    _this.user_session.addUser(user_json.user);
+                                    if (!user_json.user.verified)
+                                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__pages_code_code__["a" /* CodePage */]);
+                                    else
+                                        _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__pages_map_map__["a" /* MapPage */]);
+                                });
+                            });
+                        }).catch(function (error) {
+                            var alert = _this.alert.create({
+                                title: "Veuillez essayer de nouveau !",
+                                subTitle: "Vérifiez votre connection internet",
+                                buttons: ["OK"]
+                            });
+                            alert.present();
+                        });
+                    });
+                }
+            }
+        });
+    };
+    return ConnexionPage;
+}());
+ConnexionPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-connexion',template:/*ion-inline-start:"D:\VERONIA\MTFT\app\src\pages\connexion\connexion.html"*/'<ion-content scroll="false">\n\n  <div class="backgroundContainer">\n    <div class="imgBackground">\n        <img src="assets/images/background.jpg"/>\n        <div class="backgroundImgLayer"></div>\n    </div>\n    <div class="welcomeTitle">\n       <img src="" />\n       <h1>One Million Trees <br>For Tunisia</h1>\n    </div>\n    <div class="connexion">\n      <a>Connectez vous !</a>\n      <div class="connexionbuttons">\n        <div class="facebook" (click)="facebookLogin()">\n          <ion-icon name="logo-facebook"></ion-icon>\n          <!-- <a>Se connecter avec facebook</a> -->\n        </div>\n        <div class="googleplus" (click)="googleLogin()">\n          <ion-icon name="logo-googleplus"></ion-icon>\n          <!-- <>Se connecter avec google+</a> -->\n        </div>\n    </div>\n    </div>\n  </div>'/*ion-inline-end:"D:\VERONIA\MTFT\app\src\pages\connexion\connexion.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_facebook__["a" /* Facebook */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_google_plus__["a" /* GooglePlus */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+        __WEBPACK_IMPORTED_MODULE_6__services_user_session__["a" /* UserSession */], __WEBPACK_IMPORTED_MODULE_5__providers_users_data_requests__["a" /* UsersDataRequests */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_9__services_verification__["a" /* Verification */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_splash_screen__["a" /* SplashScreen */]])
+], ConnexionPage);
+
+//# sourceMappingURL=connexion.js.map
+
+/***/ }),
+
+/***/ 296:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ConfidPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_users_data_requests__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_user_session__ = __webpack_require__(26);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var ConfidPage = (function () {
+    function ConfidPage(navCtrl, users_datareq, user_session) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.users_datareq = users_datareq;
+        this.user_session = user_session;
+        window.caches.delete;
+        this.users_datareq.getUsers().then(function (response) {
+            _this.users = response;
+        });
+    }
+    ConfidPage.prototype.ionViewDidLoad = function () {
+    };
+    ConfidPage.prototype.goToMap = function () {
+        this.navCtrl.pop();
+    };
+    return ConfidPage;
+}());
+ConfidPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-confid',template:/*ion-inline-start:"D:\VERONIA\MTFT\app\src\pages\confid\confid.html"*/'<ion-content scroll="false">\n\n  <div class="backgroundContainer">\n    <div class="imgBackground">\n        <img src="assets/images/background.jpg"/>\n        <div class="backgroundImgLayer"></div>\n    </div>\n    <div class="title">\n      <b>Confidentialité</b>\n    </div>\n    <div class="aboutContainer">\n      <p>Devant le développement des nouveaux outils de communication, il est nécessaire de porter une attention\nparticulière à la protection de la vie privée.<br> C\'est pourquoi, nous nous engageons à respecter la confidentialité\ndes renseignements personnels que nous collectons.<br>\n\nCollecte des renseignements personnels\nNous collectons les renseignements suivants :\n<br> Nom\n<br> Prénom\n<br> Adresse postale\n<br> Adresse électronique\n<br> Numéro de téléphone / télécopieur\n<br> Numéro de carte de crédit\n<br> Genre / Sexe\n<br> Âge / Date de naissance.<br>\nLes renseignements personnels que nous collectons sont recueillis au travers de formulaires et grâce à\nl\'interactivité établie entre vous et notre site Web.<br> Nous utilisons également, comme indiqué dans la section\nsuivante, des fichiers témoins et/ou journaux pour réunir des informations vous concernant.<br>\n\nFormulaires  et interactivité:\nVos renseignements personnels sont collectés par le biais de formulaire, à savoir :\n<br> Sondage d\'opinion\n<br> Concours\nNous utilisons les renseignements ainsi collectés pour les finalités suivantes :\n<br> Suivi de la commande\n<br> Informations / Offres promotionnelles\n<br> Statistiques\n<br> Contact\n<br> Gestion du site Web (présentation, organisation)\nVos renseignements sont également collectés par le biais de l\'interactivité pouvant s\'établir entre vous et notre\nsite Web et ce, de la façon suivante:\n<br> Statistiques\n<br> Contact\n<br> Gestion du site Web (présentation, organisation)\nNous utilisons les renseignements ainsi collectés pour les finalités suivantes :\n<br> Commentaires\n<br> Informations ou pour des offres promotionnelles.<br>\n\nDroit d\'opposition et de retrait\nNous nous engageons à vous offrir un droit d\'opposition et de retrait quant à vos renseignements personnels.<br>\n\nLe droit d\'opposition s\'entend comme étant la possibilité offerte aux internautes de refuser que leurs\nrenseignements personnels soient utilisées à certaines fins mentionnées lors de la collecte.<br>\nLe droit de retrait s\'entend comme étant la possibilité offerte aux internautes de demander à ce que leurs\nrenseignements personnels ne figurent plus, par exemple, dans une liste de diffusion.<br>\nPour pouvoir exercer ces droits, vous pouvez :\nCode postal : imapsse du Bossu, tunis 1000\nCourriel : medmehdi.<br>ghazzai@gamil.<br>com\nSection du site web : Acaciasforall.<br>org/\n\nDroit d\'accès\nNous nous engageons à reconnaître un droit d\'accès et de rectification aux personnes concernées désireuses de\nconsulter, modifier, voire radier les informations les concernant.<br>\nL\'exercice de ce droit se fera :\nCode postal : imapsse du Bossu, tunis 1000\nCourriel : medmehdi.<br>ghazzai@gamil.<br>com\nSection du site web : Acaciasforall.<br>org/\n\nSécurité\nLes renseignements personnels que nous collectons sont conservés dans un environnement sécurisé.<br> Les\npersonnes travaillant pour nous sont tenues de respecter la confidentialité de vos informations.<br>\nPour assurer la sécurité de vos renseignements personnels, nous avons recours aux mesures suivantes :\n<br> Protocole SSL (Secure Sockets Layer)\n<br> Protocole SET (Secure Electronic Transaction)\n<br> Gestion des accès - personne autorisée\n<br> Gestion des accès - personne concernée\n<br> Logiciel de surveillance du réseau\n<br> Sauvegarde informatique\n<br> Développement de certificat numérique\n<br> Identifiant / mot de passe\n<br> Pare-feu (Firewalls).<br>\nNous nous engageons à maintenir un haut degré de confidentialité en intégrant les dernières innovations\ntechnologiques permettant d\'assurer la confidentialité de vos transactions.<br> Toutefois, comme aucun mécanisme\nn\'offre une sécurité maximale, une part de risque est toujours présente lorsque l\'on utilise Internet pour\ntransmettre des renseignements personnels.<br>\n\nEnfants\nNotre site Web contient des sections destinées aux enfants.<br> La collecte de leurs renseignements personnels se\nfait avec le consentement des parents ou du représentant de l\'enfant.<br>\n\nLabel\nNos engagements en matière de protection des renseignements personnels répondent aux exigences du\nprogramme suivant :\n- GEOTRUST\n\nLégislation\nNous nous engageons à respecter les dispositions législatives énoncées en :  Tunisie.<br></p>\n    </div>\n    <div class="close" (click)="goToMap()">\n      <ion-icon name="close"></ion-icon>\n    </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"D:\VERONIA\MTFT\app\src\pages\confid\confid.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_users_data_requests__["a" /* UsersDataRequests */], __WEBPACK_IMPORTED_MODULE_3__services_user_session__["a" /* UserSession */]])
+], ConfidPage);
+
+//# sourceMappingURL=confid.js.map
+
+/***/ }),
+
+/***/ 297:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_users_data_requests__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_user_session__ = __webpack_require__(26);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var AboutPage = (function () {
+    function AboutPage(navCtrl, users_datareq, user_session) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.users_datareq = users_datareq;
+        this.user_session = user_session;
+        window.caches.delete;
+        this.users_datareq.getUsers().then(function (response) {
+            _this.users = response;
+        });
+    }
+    AboutPage.prototype.ionViewDidLoad = function () {
+    };
+    AboutPage.prototype.goToMap = function () {
+        this.navCtrl.pop();
+    };
+    return AboutPage;
+}());
+AboutPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-about',template:/*ion-inline-start:"D:\VERONIA\MTFT\app\src\pages\about\about.html"*/'<ion-content scroll="false">\n\n  <div class="backgroundContainer">\n    <div class="imgBackground">\n        <img src="assets/images/background.jpg"/>\n        <div class="backgroundImgLayer"></div>\n    </div>\n    <div class="title">\n      <b>&Agrave; propos de One Million Trees For Tunisia</b>\n    </div>\n    <div class="aboutContainer">\n      <p>Grâce à cette application, votre smartphone devient un outil puissant pour faire l’inventaire de toutes les plantations d’arbres du pays. Par le téléchargement et l’utilisation de cette application, vous soutenez la campagne « Un million d’arbre pour la Tunisie ». Cette application est pour tous les intéressés, les passionnés de la nature, et pour tous ceux qui sont engagés en faveur de la question environnementale.</p>\n    </div>\n    <div class="close" (click)="goToMap()">\n      <ion-icon name="close"></ion-icon>\n    </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"D:\VERONIA\MTFT\app\src\pages\about\about.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_users_data_requests__["a" /* UsersDataRequests */], __WEBPACK_IMPORTED_MODULE_3__services_user_session__["a" /* UserSession */]])
+], AboutPage);
+
+//# sourceMappingURL=about.js.map
+
+/***/ }),
+
+/***/ 298:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StepsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_users_data_requests__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_user_session__ = __webpack_require__(26);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var StepsPage = (function () {
+    function StepsPage(navCtrl, users_datareq, user_session) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.users_datareq = users_datareq;
+        this.user_session = user_session;
+        window.caches.delete;
+        this.users_datareq.getUsers().then(function (response) {
+            _this.users = response;
+        });
+    }
+    StepsPage.prototype.ionViewDidLoad = function () {
+    };
+    StepsPage.prototype.goToMap = function () {
+        this.navCtrl.pop();
+    };
+    return StepsPage;
+}());
+StepsPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-steps',template:/*ion-inline-start:"D:\VERONIA\MTFT\app\src\pages\steps\steps.html"*/'<ion-content scroll="false">\n\n  <div class="backgroundContainer">\n    <div class="imgBackground">\n        <img src="assets/images/background.jpg"/>\n        <div class="backgroundImgLayer"></div>\n    </div>\n    <div class="title">\n      <b>Comment ça marche ?</b>\n    </div>\n    <div class="aboutContainer">\n      <p>Les caractéristiques et fonctions les plus importantes en résumé sont :\n<br>- Création de votre profil sur l’application\n<br>- Géolocaliser sa plantation\n<br>-Prendre en photo les différents arbres plantés\n<br>-Aimer et Partager avec ses amis ses plantations\n<br>-Participer au concours du total de plantation le plus élevé\n<br>-Contacter le service des forets le plus proche de sa région\n<br>-Achat de plants pour participer au financement de la campagne\n<br>-Comparer en elles les photos des différentes plantes\n<br>-S’exercer et apprendre les noms au moyen des différentes descriptions de plantes.</p>\n    </div>\n    <div class="close" (click)="goToMap()">\n      <ion-icon name="close"></ion-icon>\n    </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"D:\VERONIA\MTFT\app\src\pages\steps\steps.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_users_data_requests__["a" /* UsersDataRequests */], __WEBPACK_IMPORTED_MODULE_3__services_user_session__["a" /* UserSession */]])
+], StepsPage);
+
+//# sourceMappingURL=steps.js.map
+
+/***/ }),
+
+/***/ 300:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RankingPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_users_data_requests__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_user_session__ = __webpack_require__(26);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var RankingPage = (function () {
+    function RankingPage(navCtrl, users_datareq, user_session) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.users_datareq = users_datareq;
+        this.user_session = user_session;
+        window.caches.delete;
+        this.users_datareq.getUsers().then(function (response) {
+            _this.users = response;
+        });
+    }
+    RankingPage.prototype.ionViewDidLoad = function () {
+    };
+    RankingPage.prototype.goToMap = function () {
+        this.navCtrl.pop();
+    };
+    return RankingPage;
+}());
+RankingPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-ranking',template:/*ion-inline-start:"D:\VERONIA\MTFT\app\src\pages\ranking\ranking.html"*/'<ion-content scroll="false">\n\n  <div class="backgroundContainer">\n    <div class="imgBackground">\n        <img src="assets/images/background.jpg"/>\n        <div class="backgroundImgLayer"></div>\n    </div>\n    <div class="userslist">\n      <div [ngClass]="{\'user\': user.email!=user_session.getUser().email, \'usersession\': user.email==user_session.getUser().email}"  *ngFor="let user of users;let i=index">\n        <div class="rank">\n          <b *ngIf="(i+1)>3">{{i+1}}</b>\n          <img *ngIf="(i+1)==1" src="assets/images/gold.png"/>\n          <img *ngIf="(i+1)==2" src="assets/images/silver.png"/>\n          <img *ngIf="(i+1)==3" src="assets/images/bronze.png"/>\n\n        </div>\n        <div class="image" [style.backgroundImage]="\'url(\' + user.photo + \')\'">\n        </div>\n        <div class="name">\n          <b>{{user.name}}</b>\n        </div>\n        <div class="nbrArbres">\n          <b *ngIf="user.totalArbres != 1">{{user.totalArbres}} arbres</b>\n          <b *ngIf="user.totalArbres == 1">{{user.totalArbres}} arbre</b>\n        </div>\n      </div>\n\n    </div>\n    <div class="close" (click)="goToMap()">\n      <ion-icon name="close"></ion-icon>\n    </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"D:\VERONIA\MTFT\app\src\pages\ranking\ranking.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_users_data_requests__["a" /* UsersDataRequests */], __WEBPACK_IMPORTED_MODULE_3__services_user_session__["a" /* UserSession */]])
+], RankingPage);
+
+//# sourceMappingURL=ranking.js.map
+
+/***/ }),
+
+/***/ 301:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlantationPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_users_data_requests__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_user_session__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__map_map__ = __webpack_require__(48);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var PlantationPage = (function () {
+    function PlantationPage(navCtrl, users_datareq, user_session, alert) {
+        this.navCtrl = navCtrl;
+        this.users_datareq = users_datareq;
+        this.user_session = user_session;
+        this.alert = alert;
+        window.caches.delete;
+    }
+    PlantationPage.prototype.ionViewDidLoad = function () {
+    };
+    PlantationPage.prototype.plantByLocation = function () {
+        this.navCtrl.pop();
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__map_map__["a" /* MapPage */], { plantation: 0 });
+    };
+    PlantationPage.prototype.plantByCoords = function () {
+        if (this.lat.nativeElement.value && this.lng.nativeElement.value) {
+            this.navCtrl.pop();
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__map_map__["a" /* MapPage */], { plantation: 1, coords: {
+                    latitude: parseFloat(this.lat.nativeElement.value),
+                    longitude: parseFloat(this.lng.nativeElement.value)
+                }
+            });
+        }
+        else {
+            var alert_1 = this.alert.create({
+                title: "Impossible de planter !",
+                subTitle: "Vérifier les coordonnées que vous avez ajoutées",
+                buttons: ["OK"]
+            });
+            alert_1.present();
+        }
+    };
+    PlantationPage.prototype.goToMap = function () {
+        this.navCtrl.pop();
+    };
+    return PlantationPage;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('lat'),
+    __metadata("design:type", Object)
+], PlantationPage.prototype, "lat", void 0);
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('lng'),
+    __metadata("design:type", Object)
+], PlantationPage.prototype, "lng", void 0);
+PlantationPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-plantation',template:/*ion-inline-start:"D:\VERONIA\MTFT\app\src\pages\plantation\plantation.html"*/'<ion-content scroll="false">\n\n  <div class="backgroundContainer">\n    <div class="imgBackground">\n        <img src="assets/images/background.jpg"/>\n        <div class="backgroundImgLayer"></div>\n    </div>\n    <div class="aboutContainer">\n      <div class="gps">\n        <b class="emptyB">Plantation en position actuelle</b>\n        <p>Planter selon votre position actuelle indiquée par votre appareil.</p>\n        <div class="latLng empty"></div>\n        <button (click)="plantByLocation()">PLANTER<ion-icon name="locate" ></ion-icon></button>\n      </div>\n      <div class="divider"></div>\n      <div class="coordinates">\n        <b>Plantation par coordonnées</b>\n        <p>Planter par saisie manuelle de coordonnées de l\'endroit désiré.</p>\n        <div class="latLng">\n            <h2>Latitude:</h2>\n            <input class="latitude" #lat type="number"/>\n            <h2>Longitude:</h2>\n            <input class="Longitude" #lng type="number"/>\n        </div>\n        <button (click)="plantByCoords()" type="submit">PLANTER <ion-icon name="paper-plane" ></ion-icon></button>\n      </div>\n    </div>\n    <div class="close" (click)="goToMap()">\n      <ion-icon name="close"></ion-icon>\n    </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"D:\VERONIA\MTFT\app\src\pages\plantation\plantation.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_users_data_requests__["a" /* UsersDataRequests */], __WEBPACK_IMPORTED_MODULE_3__services_user_session__["a" /* UserSession */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+], PlantationPage);
+
+//# sourceMappingURL=plantation.js.map
+
+/***/ }),
+
+/***/ 302:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CodePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_users_data_requests__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_user_session__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_map_map__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__services_verification__ = __webpack_require__(47);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var CodePage = (function () {
+    function CodePage(navCtrl, platform, alert, user_session, users_datareq, loading, verification) {
+        this.navCtrl = navCtrl;
+        this.platform = platform;
+        this.alert = alert;
+        this.user_session = user_session;
+        this.users_datareq = users_datareq;
+        this.loading = loading;
+        this.verification = verification;
+        window.caches.delete;
+        console.log(this.user_session.getUser());
+    }
+    CodePage.prototype.validerCode = function () {
+        var _this = this;
+        if (this.code.nativeElement.value.length != 10) {
+            this.messageerror = "Veuillez vérifier le code !";
+        }
+        else {
+            this.messageerror = "";
+            if (this.user_session.getUser().code == this.code.nativeElement.value) {
+                var new_user_1 = this.user_session.getUser();
+                new_user_1.verified = true;
+                this.users_datareq.changeUser(new_user_1).then(function (response) {
+                    _this.user_session.addUser(new_user_1);
+                    _this.navCtrl.pop({ animate: false });
+                    _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__pages_map_map__["a" /* MapPage */]);
+                });
+            }
+            else
+                this.messageerror = "Veuillez vérifier le code !";
+        }
+    };
+    CodePage.prototype.changerEmail = function () {
+        var _this = this;
+        console.log(this.email.nativeElement.value);
+        var regExp = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
+        if (!regExp.test(this.email.nativeElement.value)) {
+            this.messageerroremail = "Adresse e-mail invalide!";
+        }
+        else {
+            this.messageerroremail = "";
+            var new_user_2 = this.user_session.getUser();
+            new_user_2.email = this.email.nativeElement.value;
+            this.users_datareq.changeMail(new_user_2).then(function (response) {
+                var user_json = response;
+                if (user_json.user) {
+                    if (user_json.user._id) {
+                        _this.user_session.addUser(new_user_2);
+                        _this.email.nativeElement.value = "";
+                        var alert_1 = _this.alert.create({
+                            title: "Votre e-mail a été changé !",
+                            subTitle: "Vous pouvez trouver votre code dans " + new_user_2.email,
+                            buttons: [{
+                                    text: 'OK',
+                                    handler: function () {
+                                        alert_1.dismiss();
+                                    }
+                                }]
+                        });
+                        alert_1.present();
+                    }
+                    else {
+                        _this.messageerroremail = "Adresse e-mail utilisée!";
+                    }
+                }
+                else {
+                    _this.messageerroremail = "Adresse e-mail invalide!";
+                }
+            });
+        }
+    };
+    return CodePage;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('codeNumber'),
+    __metadata("design:type", Object)
+], CodePage.prototype, "code", void 0);
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('newEmail'),
+    __metadata("design:type", Object)
+], CodePage.prototype, "email", void 0);
+CodePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-code',template:/*ion-inline-start:"D:\VERONIA\MTFT\app\src\pages\code\code.html"*/'<ion-content scroll="false">\n\n  <div class="backgroundContainer">\n    <div class="imgBackground">\n      <img src="assets/images/background.jpg" />\n      <div class="backgroundImgLayer"></div>\n    </div>\n    <div class="connexion">\n      <a>Veuillez entrer le code de 10 chiffres reçu dans votre e-mail {{user_session.getUser().email}}!</a>\n      <div class="connexionbuttons">\n        <div class="code">\n          <input #codeNumber placeholder="Votre code" type="tel" name="codeNumber" maxlength="10">\n          <div class="next" (click)="validerCode()">\n            <ion-icon name="checkmark"></ion-icon>\n          </div>\n        </div>\n      </div>\n      <div class="messageerror">\n        <b>{{messageerror}}</b>\n      </div>\n    </div>\n    <div class="connexion changeEmail">\n      <a>Vous n\'avez pas reçu le code et vous voulez changer votre e-mail ?</a>\n      <div class="connexionbuttons">\n        <div class="code">\n          <input #newEmail placeholder="Veuillez entrer votre e-mail" type="email" name="codeNumber">\n          <div class="next" (click)="changerEmail()">\n            <ion-icon name="checkmark"></ion-icon>\n          </div>\n        </div>\n      </div>\n      <div class="messageerror">\n        <b>{{messageerroremail}}</b>\n      </div>\n    </div>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\VERONIA\MTFT\app\src\pages\code\code.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+        __WEBPACK_IMPORTED_MODULE_3__services_user_session__["a" /* UserSession */], __WEBPACK_IMPORTED_MODULE_2__providers_users_data_requests__["a" /* UsersDataRequests */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_5__services_verification__["a" /* Verification */]])
+], CodePage);
+
+//# sourceMappingURL=code.js.map
+
+/***/ }),
+
+/***/ 303:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(304);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_module__ = __webpack_require__(321);
+
+
+
+// this is the magic wand
+Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_20" /* enableProdMode */])();
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 321:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_facebook__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_camera__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(368);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_connexion_connexion__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_code_code__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_map_map__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_crda_crda__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_feed_feed__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_ranking_ranking__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_compte_compte__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_confid_confid__ = __webpack_require__(296);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_about_about__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_steps_steps__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_plantation_plantation__ = __webpack_require__(301);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__providers_users_data_requests__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__providers_feeds_data_requests__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__angular_http__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__services_user_session__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ionic_native_geolocation__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__ionic_native_native_geocoder__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_native_google_plus__ = __webpack_require__(291);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_diagnostic__ = __webpack_require__(292);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_network__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__services_verification__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_native_social_sharing__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__ionic_native_google_maps__ = __webpack_require__(438);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_connexion_connexion__["a" /* ConnexionPage */], __WEBPACK_IMPORTED_MODULE_10__pages_map_map__["a" /* MapPage */], __WEBPACK_IMPORTED_MODULE_11__pages_crda_crda__["a" /* CRDAPage */], __WEBPACK_IMPORTED_MODULE_13__pages_ranking_ranking__["a" /* RankingPage */], __WEBPACK_IMPORTED_MODULE_12__pages_feed_feed__["a" /* FeedPage */], __WEBPACK_IMPORTED_MODULE_14__pages_compte_compte__["a" /* ComptePage */], __WEBPACK_IMPORTED_MODULE_9__pages_code_code__["a" /* CodePage */], __WEBPACK_IMPORTED_MODULE_15__pages_confid_confid__["a" /* ConfidPage */], __WEBPACK_IMPORTED_MODULE_16__pages_about_about__["a" /* AboutPage */], __WEBPACK_IMPORTED_MODULE_17__pages_steps_steps__["a" /* StepsPage */], __WEBPACK_IMPORTED_MODULE_18__pages_plantation_plantation__["a" /* PlantationPage */]
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_21__angular_http__["b" /* HttpModule */],
+            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */])
+        ],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
+        entryComponents: [
+            __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_8__pages_connexion_connexion__["a" /* ConnexionPage */], __WEBPACK_IMPORTED_MODULE_10__pages_map_map__["a" /* MapPage */], __WEBPACK_IMPORTED_MODULE_11__pages_crda_crda__["a" /* CRDAPage */], __WEBPACK_IMPORTED_MODULE_13__pages_ranking_ranking__["a" /* RankingPage */], __WEBPACK_IMPORTED_MODULE_12__pages_feed_feed__["a" /* FeedPage */], __WEBPACK_IMPORTED_MODULE_14__pages_compte_compte__["a" /* ComptePage */], __WEBPACK_IMPORTED_MODULE_9__pages_code_code__["a" /* CodePage */], __WEBPACK_IMPORTED_MODULE_15__pages_confid_confid__["a" /* ConfidPage */], __WEBPACK_IMPORTED_MODULE_16__pages_about_about__["a" /* AboutPage */], __WEBPACK_IMPORTED_MODULE_17__pages_steps_steps__["a" /* StepsPage */], __WEBPACK_IMPORTED_MODULE_18__pages_plantation_plantation__["a" /* PlantationPage */]
+        ],
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
+            __WEBPACK_IMPORTED_MODULE_5__ionic_native_facebook__["a" /* Facebook */],
+            __WEBPACK_IMPORTED_MODULE_19__providers_users_data_requests__["a" /* UsersDataRequests */], __WEBPACK_IMPORTED_MODULE_20__providers_feeds_data_requests__["a" /* FeedsDataRequests */], __WEBPACK_IMPORTED_MODULE_28__services_verification__["a" /* Verification */],
+            __WEBPACK_IMPORTED_MODULE_22__services_user_session__["a" /* UserSession */],
+            __WEBPACK_IMPORTED_MODULE_23__ionic_native_geolocation__["a" /* Geolocation */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_camera__["a" /* Camera */], __WEBPACK_IMPORTED_MODULE_24__ionic_native_native_geocoder__["a" /* NativeGeocoder */], __WEBPACK_IMPORTED_MODULE_25__ionic_native_google_plus__["a" /* GooglePlus */], __WEBPACK_IMPORTED_MODULE_26__ionic_native_diagnostic__["a" /* Diagnostic */], __WEBPACK_IMPORTED_MODULE_27__ionic_native_network__["a" /* Network */], __WEBPACK_IMPORTED_MODULE_29__ionic_native_social_sharing__["a" /* SocialSharing */], __WEBPACK_IMPORTED_MODULE_30__ionic_native_google_maps__["a" /* GoogleMaps */],
+            { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }
+        ]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 368:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(247);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_firebase__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_firebase___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_firebase__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_connexion_connexion__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_verification__ = __webpack_require__(47);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+var MyApp = (function () {
+    function MyApp(platform, statusBar, splashScreen, verification) {
+        this.verification = verification;
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_5__pages_connexion_connexion__["a" /* ConnexionPage */];
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+            __WEBPACK_IMPORTED_MODULE_4_firebase___default.a.initializeApp({
+                apiKey: "AIzaSyA02CSPbdyqL1K1CpJb_Aj8to-ITdwguq0",
+                authDomain: "million-trees-for-tunisia.firebaseapp.com",
+                databaseURL: "https://million-trees-for-tunisia.firebaseio.com",
+                storageBucket: "million-trees-for-tunisia.appspot.com",
+                messagingSenderId: "870601950983"
+            });
+        });
+    }
+    return MyApp;
+}());
+MyApp = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\VERONIA\MTFT\app\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"D:\VERONIA\MTFT\app\src\app\app.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_6__services_verification__["a" /* Verification */]])
+], MyApp);
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 47:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Verification; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_diagnostic__ = __webpack_require__(292);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_network__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__ = __webpack_require__(76);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var Verification = (function () {
+    function Verification(alert, platform, diagnostic, loading, network, splashScreen) {
+        this.alert = alert;
+        this.platform = platform;
+        this.diagnostic = diagnostic;
+        this.loading = loading;
+        this.network = network;
+        this.splashScreen = splashScreen;
+    }
+    Verification.prototype.internet = function () {
+        var _this = this;
+        return new Promise(function (resolve) {
+            _this.splashScreen.hide();
+            console.log(_this.network.type);
+            if ((_this.network.type == 'none')) {
+                var alert_1 = _this.alert.create({
+                    title: "Problème de connexion !",
+                    subTitle: "Veuillez activer la connexion internet",
+                    buttons: [{
+                            text: 'OK',
+                            handler: function () {
+                                alert_1.dismiss();
+                                _this.splashScreen.show();
+                                window.location.reload();
+                            }
+                        }]
+                });
+                alert_1.present();
+                resolve(false);
+            }
+            else
+                resolve(true);
+        });
+    };
+    Verification.prototype.gps = function () {
+        var _this = this;
+        return new Promise(function (resolve) {
+            if (_this.platform.is('mobileweb') || _this.platform.is('core'))
+                resolve(true);
+            else
+                _this.diagnostic.isLocationEnabled()
+                    .then(function (isAvailable) {
+                    if (isAvailable)
+                        resolve(true);
+                    else {
+                        console.log(isAvailable);
+                        resolve(false);
+                        var alert_2 = _this.alert.create({
+                            title: "Problème de localisation !",
+                            subTitle: "Veuillez activer le GPS",
+                            buttons: ["OK"]
+                        });
+                        alert_2.present();
+                    }
+                })
+                    .catch(function (error) {
+                    console.log(error);
+                    resolve(false);
+                    var alert = _this.alert.create({
+                        title: "Problème de localisation !",
+                        subTitle: "Veuillez activer le GPS",
+                        buttons: ["OK"]
+                    });
+                    alert.present();
+                });
+        });
+    };
+    return Verification;
+}());
+Verification = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["B" /* Injectable */])(),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_diagnostic__["a" /* Diagnostic */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_network__["a" /* Network */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__["a" /* SplashScreen */]])
+], Verification);
+
+//# sourceMappingURL=verification.js.map
+
+/***/ }),
+
+/***/ 48:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MapPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_users_data_requests__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_feeds_data_requests__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_user_session__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_geolocation__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_firebase__ = __webpack_require__(250);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_firebase___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_firebase__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_camera__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_crda_crda__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_ranking_ranking__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_feed_feed__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_compte_compte__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__services_verification__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__plantation_plantation__ = __webpack_require__(301);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var MapPage = MapPage_1 = (function () {
+    // map: GoogleMap;
+    function MapPage(navCtrl, platform, geolocation, camera, user_session, users_datareq, feeds_datareq, loading, alert, verification, navParams) {
+        this.navCtrl = navCtrl;
+        this.platform = platform;
+        this.geolocation = geolocation;
+        this.camera = camera;
+        this.user_session = user_session;
+        this.users_datareq = users_datareq;
+        this.feeds_datareq = feeds_datareq;
+        this.loading = loading;
+        this.alert = alert;
+        this.verification = verification;
+        this.navParams = navParams;
+        this.greenClicked = false;
+        this.grayClicked = false;
+        this.bgImage = "";
+        this.name = "";
+        this.coords = [];
+        this.otherUsersCoords = [];
+        this.selectedMarker = {};
+        this.totalPlant = 0;
+        this.imgURL = null;
+        this.showEditInputField = false;
+        this.doEditImgeField = false;
+        var plantationType = navParams.get('plantation');
+        var plantationCoords = navParams.get('coords');
+        console.log(plantationType);
+        console.log(plantationCoords);
+        if (plantationType == 0 || plantationType == 1) {
+            if (plantationType == 0)
+                this.addGrayMarker();
+            else if (plantationType == 1 && plantationCoords) {
+                if (plantationCoords.latitude && plantationCoords.longitude) {
+                    this.plantFromCoords(plantationCoords);
+                }
+            }
+            else {
+                var alert_1 = this.alert.create({
+                    title: "Impossible de planter !",
+                    subTitle: "Vérifier votre GPS ou bien les coordonnées que vous avez ajoutées",
+                    buttons: ["OK"]
+                });
+                alert_1.present();
+            }
+        }
+    }
+    MapPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.verification.internet().then(function (response) {
+            _this.verification.gps().then(function (response) {
+                _this.users_datareq.getCoordsOfOtherUsers(_this.user_session.getUser()._id).then(function (response) {
+                    _this.otherUsersCoords = response;
+                    _this.bgImage = _this.user_session.getUser().photo;
+                    _this.name = _this.user_session.getUser().name;
+                    _this.coords = _this.user_session.getUser().coords;
+                    if (_this.user_session.getUser().totalArbres)
+                        _this.totalPlant = _this.user_session.getUser().totalArbres;
+                    else
+                        _this.totalPlant = 0;
+                    _this.loadMap();
+                });
+            });
+        });
+    };
+    MapPage.prototype.loadMap = function () {
+        var _this = this;
+        var latlngbounds = new google.maps.LatLngBounds();
+        var lats = 0;
+        var lngs = 0;
+        this.coords = this.coords.concat(this.otherUsersCoords);
+        console.log(this.coords);
+        if (this.coords.length > 0) {
+            for (var _i = 0, _a = this.coords; _i < _a.length; _i++) {
+                var coord = _a[_i];
+                lats += coord.lat;
+                lngs += coord.lng;
+            }
+            lats = lats / (this.coords.length);
+            lngs = lngs / (this.coords.length);
+            var latLng = new google.maps.LatLng(lats, lngs);
+            var mapOptions = {
+                center: latLng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                scrollwheel: false,
+                minZoom: 6
+            };
+            this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
+            var _loop_1 = function (coord) {
+                var latLngMarker = new google.maps.LatLng({ lat: coord.lat, lng: coord.lng });
+                latlngbounds.extend(coord);
+                this_1.map.fitBounds(latlngbounds);
+                if (coord.color) {
+                    var marker = new google.maps.Marker({
+                        map: this_1.map,
+                        position: latLngMarker,
+                        icon: 'http://www.veronia.tn/data/media/images/' + coord.color + 'Marker.png'
+                    });
+                    google.maps.event.addListener(marker, 'click', function () {
+                        _this.selectedMarker = coord;
+                        if (coord.color == "green")
+                            _this.greenClicked = true;
+                        else if (coord.color == "gray") {
+                            _this.grayClicked = true;
+                            var loading_1 = _this.loading.create();
+                            loading_1.present();
+                            console.log(coord);
+                            if (!coord.date_id) {
+                                _this.imgURL = null;
+                                loading_1.dismiss();
+                            }
+                            else {
+                                var storageRef = __WEBPACK_IMPORTED_MODULE_6_firebase___default.a.storage().ref().child('PlantationIMG/' + _this.user_session.getUser()._id + 'id' + coord.date_id + '.png');
+                                storageRef.getDownloadURL().then(function (url) {
+                                    loading_1.dismiss();
+                                    if (url)
+                                        _this.imgURL = url;
+                                    else
+                                        _this.imgURL = null;
+                                }).catch(function (err) {
+                                    loading_1.dismiss();
+                                });
+                            }
+                        }
+                    });
+                }
+                else {
+                    var infowindow_1 = new google.maps.InfoWindow({
+                        content: '<div class="infoWindow"><div class="iwOverlay"></div><img border="0" class="infoWindowImg" align="Left" src="' + coord.image + '"> <b>' + coord.number.toString() + '</b></div>'
+                    });
+                    var marker_1 = new google.maps.Marker({
+                        map: this_1.map,
+                        position: latLngMarker,
+                        icon: 'http://www.veronia.tn/data/media/images/otherMarkers.png'
+                    });
+                    google.maps.event.addListener(marker_1, 'click', function () {
+                        infowindow_1.open(_this.map, marker_1);
+                    });
+                }
+            };
+            var this_1 = this;
+            for (var _b = 0, _c = this.coords; _b < _c.length; _b++) {
+                var coord = _c[_b];
+                _loop_1(coord);
+            }
+        }
+        else {
+            this.geolocation.getCurrentPosition().then(function (resp) {
+                var latLng = new google.maps.LatLng(resp.coords.latitude, resp.coords.longitude);
+                var mapOptions = {
+                    center: latLng,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    scrollwheel: false,
+                    zoom: 8
+                };
+                _this.map = new google.maps.Map(_this.mapElement.nativeElement, mapOptions);
+            }).catch(function (error) {
+                alert(JSON.stringify(error));
+            });
+        }
+    };
+    MapPage.prototype.deleteCoord = function () {
+        var _this = this;
+        var alert = this.alert.create({
+            title: 'Supprimer cette plantation',
+            message: 'Voulez vous supprimer cette plantation ?',
+            buttons: [
+                {
+                    text: 'Cancel',
+                    role: 'cancel',
+                    handler: function () {
+                    }
+                },
+                {
+                    text: 'Supprimer',
+                    role: 'ok',
+                    handler: function () {
+                        var user = _this.user_session.getUser();
+                        user.coords = user.coords.filter(function (coord) { return coord.lat != _this.selectedMarker.lat || coord.lng != _this.selectedMarker.lng; });
+                        if (parseInt(_this.selectedMarker.number))
+                            user.totalArbres = parseInt(user.totalArbres) - parseInt(_this.selectedMarker.number);
+                        _this.users_datareq.changeUser(user).then(function (result) {
+                            _this.user_session.addUser(user);
+                            _this.ionViewDidLoad();
+                        });
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    MapPage.prototype.editMarker = function () {
+        var _this = this;
+        var new_user = null;
+        if (this.showEditInputField && this.nbrAjoutGray.nativeElement.value) {
+            if (!new_user) {
+                new_user = this.user_session.getUser();
+            }
+            new_user.totalArbres = parseInt(new_user.totalArbres) - this.selectedMarker.number + parseInt(this.nbrAjoutGray.nativeElement.value);
+            this.coords[this.coords.indexOf(this.selectedMarker)].number = this.nbrAjoutGray.nativeElement.value;
+            this.selectedMarker.number = this.nbrAjoutGray.nativeElement.value;
+            new_user.coords = this.coords;
+            this.totalPlant = new_user.totalArbres;
+            this.users_datareq.changeUser(new_user).then(function (response) {
+                _this.user_session.addUser(new_user);
+                _this.ionViewDidLoad();
+                _this.showEditInputField = false;
+                _this.doEditImgeField = false;
+            });
+        }
+        else if (this.showEditInputField) {
+            var alert_2 = this.alert.create({
+                title: "Donnée manquante !",
+                subTitle: "Ajoutez le nombre des arbres plantées",
+                buttons: ["OK"]
+            });
+            alert_2.present();
+        }
+        if (this.doEditImgeField) {
+            var d = new Date();
+            var loading_2 = this.loading.create();
+            loading_2.present();
+            var actualDate_1 = ('0' + (d.getDate())).toString().substr(('0' + (d.getDate())).toString().length - 2, 2) + '/' +
+                ('0' + (d.getMonth() + 1)).toString().substr(('0' + (d.getMonth() + 1)).toString().length - 2, 2) + '/' +
+                d.getFullYear().toString();
+            var storageRefUrl = 'PlantationIMG/' + this.user_session.getUser()._id + 'id' + this.selectedMarker.date_id + '.png';
+            var storageRef = __WEBPACK_IMPORTED_MODULE_6_firebase___default.a.storage().ref().child(storageRefUrl);
+            storageRef.getDownloadURL().then(function (url) {
+                loading_2.dismiss();
+                if (url) {
+                    if (!new_user) {
+                        new_user = _this.user_session.getUser();
+                    }
+                    var newCoord = { lat: _this.selectedMarker.lat, lng: _this.selectedMarker.lng, color: "green", number: _this.selectedMarker.number, date: actualDate_1, image: url, species: "noSpecies", date_id: _this.selectedMarker.date_id };
+                    _this.coords[_this.coords.indexOf(_this.selectedMarker)] = newCoord;
+                    new_user.coords[_this.coords.indexOf(_this.selectedMarker)] = newCoord;
+                    _this.selectedMarker = newCoord;
+                    var feed = {
+                        user: _this.user_session.getUser(),
+                        date: actualDate_1,
+                        image: url,
+                        likes: 0,
+                        lat: _this.selectedMarker.lat,
+                        lng: _this.selectedMarker.lng,
+                    };
+                    _this.feeds_datareq.postFeed(feed).then(function (resultfeed) {
+                    });
+                    _this.users_datareq.changeUser(new_user).then(function (response) {
+                        _this.user_session.addUser(new_user);
+                        _this.ionViewDidLoad();
+                        _this.showEditInputField = false;
+                        _this.doEditImgeField = false;
+                    });
+                }
+                else {
+                    var alert_3 = _this.alert.create({
+                        title: "Donnée manquante !",
+                        subTitle: "Ajoutez une photo de la plantation",
+                        buttons: ["OK"]
+                    });
+                    alert_3.present();
+                }
+            });
+        }
+    };
+    MapPage.prototype.plantFromCoords = function (actual_coords) {
+        var geocoder = new google.maps.Geocoder();
+        var latlng = new google.maps.LatLng(actual_coords.latitude, actual_coords.longitude);
+        var mapsComponent = this;
+        geocoder.geocode({ 'latLng': latlng }, function (results, status) {
+            if (status == google.maps.GeocoderStatus.OK) {
+                if (results[1]) {
+                    var countryReceived = results[1].address_components;
+                    var country = countryReceived[countryReceived.length - 1].short_name;
+                    console.log(country);
+                    if (country == "TN") {
+                        var user_1 = mapsComponent.user_session.getUser();
+                        mapsComponent.users_datareq.coordsExist(user_1._id, actual_coords.latitude, actual_coords.longitude).then(function (responsecoords) {
+                            if (responsecoords == false) {
+                                user_1.coords.push({ lat: actual_coords.latitude, lng: actual_coords.longitude, color: "gray" });
+                                mapsComponent.coords.push({ lat: actual_coords.latitude, lng: actual_coords.longitude, color: "gray" });
+                                if (!user_1.totalArbres)
+                                    user_1.totalArbres = 0;
+                                mapsComponent.users_datareq.changeUser(user_1).then(function (result) {
+                                    mapsComponent.user_session.addUser(user_1);
+                                    mapsComponent.ionViewDidLoad();
+                                });
+                            }
+                            else {
+                                var alert_4 = mapsComponent.alert.create({
+                                    title: "Changez votre localisation !",
+                                    subTitle: "Vous avez déjà utilisé cette position !",
+                                    buttons: ["OK"]
+                                });
+                                alert_4.present();
+                            }
+                        });
+                    }
+                    else {
+                        var alert_5 = mapsComponent.alert.create({
+                            title: "Essayez de nouveau !",
+                            subTitle: "Vérifiez que votre localisation est située dans la Tunisie !",
+                            buttons: ["OK"]
+                        });
+                        alert_5.present();
+                    }
+                }
+            }
+            else {
+                var alert_6 = mapsComponent.alert.create({
+                    title: "Essayez de nouveau !",
+                    subTitle: "Vérifiez que vous avez autorisé la localisation",
+                    buttons: ["OK"]
+                });
+                alert_6.present();
+            }
+        });
+    };
+    MapPage.prototype.addGrayMarker = function () {
+        var _this = this;
+        console.log(MapPage_1.prototype);
+        console.log(this);
+        var loading = this.loading.create();
+        loading.present();
+        this.verification.gps().then(function (response) {
+            if (response) {
+                _this.geolocation.getCurrentPosition().then(function (resp) {
+                    loading.dismiss();
+                    var actual_coords = {};
+                    if ('coords' in resp) {
+                        if ('latitude' in resp.coords) {
+                            actual_coords.latitude = resp.coords.latitude;
+                        }
+                        if ('longitude' in resp.coords) {
+                            actual_coords.longitude = resp.coords.longitude;
+                        }
+                    }
+                    _this.plantFromCoords(actual_coords);
+                }).catch(function (error) {
+                    loading.dismiss();
+                    var alert = _this.alert.create({
+                        title: "Essayez de nouveau !",
+                        subTitle: "Vérifiez que vous avez autorisé la localisation",
+                        buttons: ["OK"]
+                    });
+                    alert.present();
+                });
+            }
+            else
+                loading.dismiss();
+        });
+    };
+    MapPage.prototype.turnIntoGreen = function () {
+        var _this = this;
+        var d = new Date();
+        var loading = this.loading.create();
+        loading.present();
+        var actualDate = ('0' + (d.getDate())).toString().substr(('0' + (d.getDate())).toString().length - 2, 2) + '/' +
+            ('0' + (d.getMonth() + 1)).toString().substr(('0' + (d.getMonth() + 1)).toString().length - 2, 2) + '/' +
+            d.getFullYear().toString();
+        var storageRefUrl = 'PlantationIMG/' + this.user_session.getUser()._id + 'id' + this.selectedMarker.date_id + '.png';
+        var storageRef = __WEBPACK_IMPORTED_MODULE_6_firebase___default.a.storage().ref().child(storageRefUrl);
+        storageRef.getDownloadURL().then(function (url) {
+            loading.dismiss();
+            if ((url) && (_this.nbrAjoutGray.nativeElement.value)) {
+                var newCoord = { lat: _this.selectedMarker.lat, lng: _this.selectedMarker.lng, color: "green", number: _this.nbrAjoutGray.nativeElement.value, date: actualDate, image: url, species: "noSpecies", date_id: _this.selectedMarker.date_id };
+                _this.coords[_this.coords.indexOf(_this.selectedMarker)] = newCoord;
+                var new_user_1 = _this.user_session.getUser();
+                new_user_1.coords = _this.coords;
+                new_user_1.totalArbres = parseInt(new_user_1.totalArbres) + parseInt(_this.nbrAjoutGray.nativeElement.value);
+                _this.totalPlant = new_user_1.totalArbres;
+                _this.users_datareq.changeUser(new_user_1).then(function (response) {
+                    _this.user_session.addUser(new_user_1);
+                    _this.ionViewDidLoad();
+                    _this.grayClicked = false;
+                });
+                var feed = {
+                    user: _this.user_session.getUser(),
+                    date: actualDate,
+                    image: url,
+                    likes: 0,
+                    lat: _this.selectedMarker.lat,
+                    lng: _this.selectedMarker.lng,
+                };
+                _this.feeds_datareq.postFeed(feed).then(function (resultfeed) {
+                });
+            }
+            else {
+                var alert_7 = _this.alert.create({
+                    title: "Donnée manquante !",
+                    subTitle: "Ajoutez le nombre des arbres plantées",
+                    buttons: ["OK"]
+                });
+                alert_7.present();
+            }
+        }).catch(function (err) {
+            loading.dismiss();
+            var alert = _this.alert.create({
+                title: "Donnée manquante !",
+                subTitle: "Ajoutez une photo de la plantation",
+                buttons: ["OK"]
+            });
+            alert.present();
+        });
+    };
+    MapPage.prototype.takePhoto = function () {
+        var _this = this;
+        this.camera.getPicture({
+            quality: 95,
+            destinationType: this.camera.DestinationType.DATA_URL,
+            sourceType: this.camera.PictureSourceType.CAMERA,
+            allowEdit: false,
+            encodingType: this.camera.EncodingType.PNG,
+            targetWidth: 500,
+            targetHeight: 500,
+            saveToPhotoAlbum: false
+        }).then(function (picture) {
+            var loading = _this.loading.create();
+            loading.present();
+            var d = new Date();
+            var date_id = d.getTime().toString();
+            var ref = __WEBPACK_IMPORTED_MODULE_6_firebase___default.a.storage().ref('PlantationIMG/' + _this.user_session.getUser()._id + 'id' + date_id + '.png');
+            ref
+                .putString(picture, 'base64', { contentType: 'image/png' })
+                .then(function (savedPicture) {
+                _this.coords[_this.coords.indexOf(_this.selectedMarker)].date_id = date_id;
+                _this.selectedMarker.date_id = date_id;
+                var new_user = _this.user_session.getUser();
+                new_user.coords = _this.coords;
+                _this.users_datareq.changeUser(new_user).then(function (response) {
+                    var storageRef = __WEBPACK_IMPORTED_MODULE_6_firebase___default.a.storage().ref().child('PlantationIMG/' + _this.user_session.getUser()._id + 'id' + _this.selectedMarker.date_id + '.png');
+                    storageRef.getDownloadURL().then(function (url) {
+                        if (url) {
+                            _this.imgURL = url;
+                            _this.selectedMarker.image = url;
+                        }
+                        else
+                            _this.imgURL = null;
+                        loading.dismiss();
+                    }).catch(function (err) {
+                        console.log(err);
+                        loading.dismiss();
+                    });
+                });
+            });
+        }, function (error) {
+        });
+    };
+    MapPage.prototype.gotoPodium = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_9__pages_ranking_ranking__["a" /* RankingPage */], { animate: true, animation: 'md-transition', duration: 1000 });
+    };
+    MapPage.prototype.goToCRDA = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__pages_crda_crda__["a" /* CRDAPage */], {}, { animate: false });
+    };
+    MapPage.prototype.goToCompte = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_11__pages_compte_compte__["a" /* ComptePage */], {}, { animate: false });
+    };
+    MapPage.prototype.goToFeed = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_10__pages_feed_feed__["a" /* FeedPage */], {}, { animate: false });
+    };
+    MapPage.prototype.goToPlantation = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_13__plantation_plantation__["a" /* PlantationPage */], { animate: true, animation: 'md-transition', duration: 1000 });
+    };
+    return MapPage;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('map'),
+    __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ElementRef */])
+], MapPage.prototype, "mapElement", void 0);
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_13" /* ViewChild */])('nbrAjout'),
+    __metadata("design:type", Object)
+], MapPage.prototype, "nbrAjoutGray", void 0);
+MapPage = MapPage_1 = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-map',template:/*ion-inline-start:"D:\VERONIA\MTFT\app\src\pages\map\map.html"*/'<ion-content scroll="false">\n\n  <div class="backgroundContainer">\n    <div class="imgBackground">\n        <img src="assets/images/background.jpg"/>\n        <div class="backgroundImgLayer"></div>\n    </div>\n    <div class="title">\n      <div class="actions">\n        <div class="map">\n          <ion-icon name="pin"></ion-icon>\n        </div>\n        <div class="home">\n          <ion-icon name="home" (click)="goToFeed()"></ion-icon>\n        </div>\n        <div class="compte">\n          <ion-icon name="person" (click)="goToCompte()"></ion-icon>\n        </div>\n        <div class="cart">\n          <ion-icon name="call" (click)="goToCRDA()"></ion-icon>\n        </div>\n      </div>\n    </div>\n    <div  scroll="false" #map id="map" zoom-control="false"></div>\n    <h1 *ngIf="totalPlant != 1">Total: {{totalPlant}} Arbres</h1>\n    <h1 *ngIf="totalPlant == 1">Total: {{totalPlant}} Arbre</h1>\n    <div class="plus" (click)="goToPlantation()">\n      <ion-icon name="add"></ion-icon>\n    </div>\n    <div class="podium" (click)="gotoPodium()">\n      <ion-icon name="podium"></ion-icon>\n    </div>\n    <div *ngIf="greenClicked || grayClicked" class="blackBackground" (click)="imgURL=null;grayClicked=false;greenClicked=false;"></div>\n    <div *ngIf="greenClicked" class="GreenMarker">\n      <div class="delete" (click)="deleteCoord();greenClicked=false;">\n          <ion-icon name="trash" ></ion-icon>\n      </div>\n      <div class="close" (click)="showEditInputField=false;doEditImgeField=false;grayClicked=false;greenClicked=false;imgURL=null;">\n        <ion-icon name="close" ></ion-icon>\n      </div>\n      <div [style.backgroundImage]="\'url(\' + bgImage + \')\'" class="userImage">\n      </div>\n      <div class="content">\n        <div class="left">\n          <img src=\'http://veronia.tn/data/media/images/green.png\' />\n        </div>\n        <div class="right">\n          <h1>{{name}}</h1>\n          <h2 *ngIf="!showEditInputField && selectedMarker.number != 1">{{selectedMarker.number}} Arbres</h2>\n          <h2 *ngIf="!showEditInputField && selectedMarker.number == 1">{{selectedMarker.number}} Arbre</h2>\n          <input class="inputNumberGreen" *ngIf="showEditInputField" #nbrAjout type="number" min="0" placeholder="Nouveau nombre des arbres"/>\n          <div *ngIf="!showEditInputField" class="editNumber" (click)="showEditInputField=true;">\n              <ion-icon name="create" ></ion-icon>\n          </div>\n          <h2>{{selectedMarker.date}}</h2>\n        </div>\n      </div>\n      <div class="photo">\n          <div class="editImage" (click)="doEditImgeField = true;takePhoto()">\n              <ion-icon name="create" ></ion-icon>\n          </div>\n        <img src="{{selectedMarker.image}}"/>\n      </div>\n      <button *ngIf="doEditImgeField || showEditInputField" (click)="editMarker()" type="submit">CONFIRMER</button>\n    </div>\n    <div *ngIf="grayClicked" class="GrayMarker">\n      <div class="delete" (click)="deleteCoord();grayClicked=false;">\n          <ion-icon name="trash" ></ion-icon>\n      </div>\n      <div class="close" (click)="grayClicked=false;greenClicked=false;imgURL=null;">\n        <ion-icon name="close" ></ion-icon>\n      </div>\n      <div [style.backgroundImage]="\'url(\' + bgImage + \')\'" class="userImage">\n      </div>\n      <div class="content">\n          <h1>{{name}}</h1>\n          <h2 *ngIf="totalPlant != 1">Total: {{totalPlant}} Arbres</h2>\n          <h2 *ngIf="totalPlant == 1">Total: {{totalPlant}} Arbre</h2>\n          <h2>Nombre des arbres à ajouter:</h2>\n          <input #nbrAjout type="number" min="0"/>\n          <div *ngIf="!imgURL" class="photo" (click)="takePhoto()">\n            <ion-icon name="camera"></ion-icon>\n            <h2>Prenez une photo de la plantation!</h2>\n          </div>\n          <div *ngIf="imgURL" class="photo">\n            <img src="{{imgURL}}"/>\n          </div>\n          <button (click)="turnIntoGreen()" type="submit">CONFIRMER</button>\n      </div>\n    </div>\n\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"D:\VERONIA\MTFT\app\src\pages\map\map.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_geolocation__["a" /* Geolocation */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_camera__["a" /* Camera */],
+        __WEBPACK_IMPORTED_MODULE_4__services_user_session__["a" /* UserSession */], __WEBPACK_IMPORTED_MODULE_2__providers_users_data_requests__["a" /* UsersDataRequests */], __WEBPACK_IMPORTED_MODULE_3__providers_feeds_data_requests__["a" /* FeedsDataRequests */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_12__services_verification__["a" /* Verification */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+], MapPage);
+
+var MapPage_1;
+//# sourceMappingURL=map.js.map
+
+/***/ }),
+
+/***/ 89:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CRDAPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_map_map__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_feed_feed__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_compte_compte__ = __webpack_require__(91);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var CRDAPage = (function () {
+    function CRDAPage(navCtrl) {
+        this.navCtrl = navCtrl;
+        window.caches.delete;
+    }
+    CRDAPage.prototype.ionViewDidLoad = function () {
+    };
+    CRDAPage.prototype.goToMap = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages_map_map__["a" /* MapPage */], {}, { animate: false });
+    };
+    CRDAPage.prototype.goToFeed = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__pages_feed_feed__["a" /* FeedPage */], {}, { animate: false });
+    };
+    CRDAPage.prototype.goToCompte = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__pages_compte_compte__["a" /* ComptePage */], {}, { animate: false });
+    };
+    CRDAPage.prototype.callIT = function (passedNumber) {
+        console.log(passedNumber);
+        window.open = passedNumber;
+    };
+    return CRDAPage;
+}());
+CRDAPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-crda',template:/*ion-inline-start:"D:\VERONIA\MTFT\app\src\pages\crda\crda.html"*/'<ion-content scroll="false">\n\n  <div class="backgroundContainer">\n    <div class="imgBackground">\n        <img src="assets/images/background.jpg"/>\n        <div class="backgroundImgLayer"></div>\n    </div>\n    <div class="title">\n      <div class="actions">\n        <div class="map">\n          <ion-icon name="pin" (click)="goToMap()"></ion-icon>\n        </div>\n        <div class="home">\n          <ion-icon name="home" (click)="goToFeed()"></ion-icon>\n        </div>\n        <div class="compte">\n          <ion-icon name="person" (click)="goToCompte()"></ion-icon>\n        </div>\n        <div class="cart">\n          <ion-icon name="call"></ion-icon>\n        </div>\n      </div>\n    </div>\n    <div class="list">\n      <div class="card">\n        <div class="name">\n          <b>CRDA Tunis</b>\n\n        </div>\n        <div class="address">\n          <b>35, Avenue Kheireddine Pacha</b>\n        </div>\n        <div class="telephone"><a href="tel:+21671801636" (click)="callIT(\'tel:+21671801636\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Ariana</b>\n\n        </div>\n        <div class="address">\n          <b>Cité Bouchoucha - le Bardo 2000</b>\n        </div>\n        <div class="telephone"><a href="tel:+21671564939" (click)="callIT(\'tel:+21671564939\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Manouba</b>\n\n        </div>\n        <div class="address">\n          <b>35, Avenue Kheireddine Pacha</b>\n        </div>\n        <div class="telephone"><a href="tel:+21671624420" (click)="callIT(\'tel:+21671624420\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Nabeul</b>\n\n        </div>\n        <div class="address">\n          <b>Rue Mongi Bali - Nabeul 8000</b>\n        </div>\n        <div class="telephone"><a href="tel:+21672274434" (click)="callIT(\'tel:+21672274434\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Bizerte</b>\n\n        </div>\n        <div class="address">\n          <b>Avenue Hassen Nouri - Bizerte 7000</b>\n        </div>\n        <div class="telephone"><a href="tel:+21672431438" (click)="callIT(\'tel:+21672431438\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Ben Arous</b>\n\n        </div>\n        <div class="address">\n          <b>Immeuble SPROLS - Nouvelle Médina 2063</b>\n        </div>\n        <div class="telephone"><a href="tel:+21671310037" (click)="callIT(\'tel:+21671310037\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Zaghouan</b>\n\n        </div>\n        <div class="address">\n          <b>Avenue Hédi Chaker - Zaghouan 1100</b>\n        </div>\n        <div class="telephone"><a href="tel:+21672675414" (click)="callIT(\'tel:+21672675414\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Siliana</b>\n\n        </div>\n        <div class="address">\n          <b>Route de Gaâfour - Siliana</b>\n        </div>\n        <div class="telephone"><a href="tel:+21678872790" (click)="callIT(\'tel:+21678872790\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Kef</b>\n\n        </div>\n        <div class="address">\n          <b>Avenue de la Liberté -le Kef 7100</b>\n        </div>\n        <div class="telephone"><a href="tel:+21678224711" (click)="callIT(\'tel:+21678224711\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Béja</b>\n\n        </div>\n        <div class="address">\n          <b>Avenue Habib Bourguiba - Béjà 9000</b>\n        </div>\n        <div class="telephone"><a href="tel:+21678243754" (click)="callIT(\'tel:+21678243754\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Jendouba</b>\n\n        </div>\n        <div class="address">\n          <b>Route de Tunis - Jendouba 8100</b>\n        </div>\n        <div class="telephone"><a href="tel:+21678603426" (click)="callIT(\'tel:+21678603426\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Kasserine</b>\n\n        </div>\n        <div class="address">\n          <b>Avenue Habib Bourguiba - Kasserine 1200</b>\n        </div>\n        <div class="telephone"><a href="tel:+21677474935" (click)="callIT(\'tel:+21677474935\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Sfax</b>\n\n        </div>\n        <div class="address">\n          <b>Rue Commandant Béjaoui</b>\n        </div>\n        <div class="telephone"><a href="tel:+21674226195" (click)="callIT(\'tel:+21674226195\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Sousse</b>\n\n        </div>\n        <div class="address">\n          <b>Rue d\'Alger - Sousse</b>\n        </div>\n        <div class="telephone"><a href="tel:+21673224176" (click)="callIT(\'tel:+21673224176\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Monastir</b>\n\n        </div>\n        <div class="address">\n          <b>Sahel Jabeur - Monastir 5000</b>\n        </div>\n        <div class="telephone"><a href="tel:+21673460328" (click)="callIT(\'tel:+21673460328\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Mahdia</b>\n\n        </div>\n        <div class="address">\n          <b>Hiboun - Mahdia 5119</b>\n        </div>\n        <div class="telephone"><a href="tel:+21673680266" (click)="callIT(\'tel:+21673680266\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Kairouan</b>\n\n        </div>\n        <div class="address">\n          <b>Cité Sidi Layoun - Kairouan 3100</b>\n        </div>\n        <div class="telephone"><a href="tel:+21677303117" (click)="callIT(\'tel:+21677303117\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Sidi Bouzid</b>\n\n        </div>\n        <div class="address">\n          <b>Avenue Habib Bourguiba - Sidi Bouzid 9100</b>\n        </div>\n        <div class="telephone"><a href="tel:+21676632854" (click)="callIT(\'tel:+21676632854\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Gafsa</b>\n\n        </div>\n        <div class="address">\n          <b>Av. Habib Bourguiba - Gafsa 2100</b>\n        </div>\n        <div class="telephone"><a href="tel:+21676220104" (click)="callIT(\'tel:+21676220104\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Gabès</b>\n\n        </div>\n        <div class="address">\n          <b>Rue Abou Kacem Chebbi - 6019Gabès</b>\n        </div>\n        <div class="telephone"><a href="tel:+21675280831" (click)="callIT(\'tel:+21675280831\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Kebili</b>\n\n        </div>\n        <div class="address">\n          <b>Rue Salah B. Youssef Kebili - 4200</b>\n        </div>\n        <div class="telephone"><a href="tel:+21675490330" (click)="callIT(\'tel:+21675490330\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Tozeur</b>\n\n        </div>\n        <div class="address">\n          <b>Route de Nafta Avenue F. Hached</b>\n        </div>\n        <div class="telephone"><a href="tel:+21676452556" (click)="callIT(\'tel:+21676452556\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Medenine</b>\n\n        </div>\n        <div class="address">\n          <b>Rue 2Mai 1966- Medenine 4119</b>\n        </div>\n        <div class="telephone"><a href="tel:+21675640513" (click)="callIT(\'tel:+21675640513\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n      <div class="card">\n        <div class="name">\n          <b>CRDA Tataouine</b>\n\n        </div>\n        <div class="address">\n          <b>Cité 7Novembre - Tataouine</b>\n        </div>\n        <div class="telephone"><a href="tel:+21675870067" (click)="callIT(\'tel:+21675870067\')">\n          <ion-icon name="call"></ion-icon>\n        </a></div>\n      </div>\n    </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"D:\VERONIA\MTFT\app\src\pages\crda\crda.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+], CRDAPage);
+
+//# sourceMappingURL=crda.js.map
+
+/***/ }),
+
+/***/ 90:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FeedPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_map_map__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_crda_crda__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_feeds_data_requests__ = __webpack_require__(154);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_users_data_requests__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__services_user_session__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_native_geocoder__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_compte_compte__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_social_sharing__ = __webpack_require__(299);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+var FeedPage = (function () {
+    function FeedPage(navCtrl, platform, user_session, social_share, feeds_datareq, users_datareq, geocoder, loading) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.platform = platform;
+        this.user_session = user_session;
+        this.social_share = social_share;
+        this.feeds_datareq = feeds_datareq;
+        this.users_datareq = users_datareq;
+        this.geocoder = geocoder;
+        this.loading = loading;
+        window.caches.delete;
+        this.feeds_datareq.getFeeds().then(function (response) {
+            _this.feeds = response;
+            var _loop_1 = function (feed) {
+                if (_this.platform.is('mobileweb'))
+                    _this.feeds[_this.feeds.indexOf(feed)].address = "95 Avenue Fethi Zouhair, Cité La Ghazelle, Ariana";
+                else
+                    _this.geocoder.reverseGeocode(feed.lat, feed.lng).then(function (response) {
+                        _this.feeds[_this.feeds.indexOf(feed)].address = "";
+                        //  alert(response);
+                        if (response.subThoroughfare)
+                            _this.feeds[_this.feeds.indexOf(feed)].address += response.subThoroughfare + " ";
+                        if (response.thoroughfare)
+                            _this.feeds[_this.feeds.indexOf(feed)].address += response.thoroughfare + " ,";
+                        if (response.subLocality)
+                            _this.feeds[_this.feeds.indexOf(feed)].address += response.subLocality + " ";
+                        if (response.locality)
+                            _this.feeds[_this.feeds.indexOf(feed)].address += response.locality + " ,";
+                        if (response.subAdministrativeArea)
+                            _this.feeds[_this.feeds.indexOf(feed)].address += response.subAdministrativeArea + " ";
+                        if (response.administrativeArea)
+                            _this.feeds[_this.feeds.indexOf(feed)].address += response.administrativeArea + " ";
+                    });
+            };
+            for (var _i = 0, _a = _this.feeds; _i < _a.length; _i++) {
+                var feed = _a[_i];
+                _loop_1(feed);
+            }
+        });
+    }
+    FeedPage.prototype.ionViewDidLoad = function () {
+    };
+    FeedPage.prototype.goToMap = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages_map_map__["a" /* MapPage */], {}, { animate: false });
+    };
+    FeedPage.prototype.goToCRDA = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__pages_crda_crda__["a" /* CRDAPage */], {}, { animate: false });
+    };
+    FeedPage.prototype.goToCompte = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__pages_compte_compte__["a" /* ComptePage */], {}, { animate: false });
+    };
+    FeedPage.prototype.like = function (feed) {
+        var new_user = this.user_session.getUser();
+        if (new_user.likes.indexOf(feed._id) >= 0) {
+            new_user.likes.splice(new_user.likes.indexOf(feed._id), 1);
+            this.feeds[this.feeds.indexOf(feed)].likes = parseInt(this.feeds[this.feeds.indexOf(feed)].likes) - 1;
+        }
+        else {
+            new_user.likes.push(feed._id);
+            this.feeds[this.feeds.indexOf(feed)].likes = parseInt(this.feeds[this.feeds.indexOf(feed)].likes) + 1;
+        }
+        this.user_session.addUser(new_user);
+        this.users_datareq.changeUser(new_user).then(function (response) { });
+        console.log(this.feeds[this.feeds.indexOf(feed)]);
+        this.feeds_datareq.changeFeed(this.feeds[this.feeds.indexOf(feed)]).then(function (response) { });
+    };
+    FeedPage.prototype.share = function (feed) {
+        var message = 'Plantation le ' + feed.date;
+        var subject = "Plantation des arbres avec l'application mobile One Million Trees For Tunisia effectuée le " + feed.date + " par " + feed.user.name;
+        var url = [feed.image];
+        var loading = this.loading.create();
+        loading.present();
+        this.social_share.share(message, subject, null, feed.image).then(function (response) {
+            loading.dismiss();
+            console.log(response);
+        });
+    };
+    return FeedPage;
+}());
+FeedPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-feed',template:/*ion-inline-start:"D:\VERONIA\MTFT\app\src\pages\feed\feed.html"*/'<ion-content scroll="false">\n\n\n\n  <div class="backgroundContainer">\n\n    <div class="imgBackground">\n\n      <img src="assets/images/background.jpg" />\n\n      <div class="backgroundImgLayer"></div>\n\n    </div>\n\n    <div class="title">\n\n      <div class="actions">\n\n        <div class="map">\n\n          <ion-icon name="pin" (click)="goToMap()"></ion-icon>\n\n        </div>\n\n        <div class="home">\n\n          <ion-icon name="home"></ion-icon>\n\n        </div>\n\n        <div class="compte">\n\n          <ion-icon name="person" (click)="goToCompte()"></ion-icon>\n\n        </div>\n\n        <div class="cart" (click)="goToCRDA()">\n\n          <ion-icon name="call"></ion-icon>\n\n        </div>\n\n      </div>\n\n    </div>\n\n    <div class="list">\n\n      <div class="feed" *ngFor="let feed of feeds">\n\n        <div class="feedHeader" (click)="like(feed)">\n\n          <div class="backgroundFeed"></div>\n\n          <div class="image" [style.backgroundImage]="\'url(\' + feed.image + \')\'"></div>\n\n          <div class="location">\n\n            <ion-icon name="pin" (click)="goToMap()"></ion-icon>\n\n          </div>\n\n          <div class="adresse">\n\n            <b>{{feed.address}}</b>\n\n          </div>\n\n          <div class="like" *ngIf="user_session.getUser().likes.indexOf(feed._id)<0">\n\n            <ion-icon name="heart"></ion-icon>\n\n          </div>\n\n          <div class="like-red" *ngIf="user_session.getUser().likes.indexOf(feed._id)>=0">\n\n            <ion-icon name="heart"></ion-icon>\n\n          </div>\n\n        </div>\n\n        <div class="feedData">\n\n          <div class="userImage" [style.backgroundImage]="\'url(\' + feed.user.photo + \')\'"></div>\n\n          <div class="date">\n\n            <b>{{feed.date}}</b>\n\n          </div>\n\n          <div class="userName">\n\n            <b>{{feed.user.name}}</b>\n\n            <h1>{{feed.likes}}\n\n              <ion-icon name="heart"></ion-icon>\n\n            </h1>\n\n          </div>\n\n          <div class="share" (click)="share(feed)">\n\n            <ion-icon name="md-share"></ion-icon>\n\n\n\n          </div>\n\n        </div>\n\n      </div>\n\n    </div>\n\n  </div>\n\n\n\n</ion-content>\n\n\n\n'/*ion-inline-end:"D:\VERONIA\MTFT\app\src\pages\feed\feed.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_6__services_user_session__["a" /* UserSession */], __WEBPACK_IMPORTED_MODULE_9__ionic_native_social_sharing__["a" /* SocialSharing */],
+        __WEBPACK_IMPORTED_MODULE_4__providers_feeds_data_requests__["a" /* FeedsDataRequests */], __WEBPACK_IMPORTED_MODULE_5__providers_users_data_requests__["a" /* UsersDataRequests */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_native_geocoder__["a" /* NativeGeocoder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]])
+], FeedPage);
+
+//# sourceMappingURL=feed.js.map
+
+/***/ }),
+
+/***/ 91:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComptePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_map_map__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_users_data_requests__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_user_session__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_crda_crda__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_feed_feed__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_confid_confid__ = __webpack_require__(296);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_about_about__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_steps_steps__ = __webpack_require__(298);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+var ComptePage = (function () {
+    function ComptePage(navCtrl, users_datareq, user_session) {
+        this.navCtrl = navCtrl;
+        this.users_datareq = users_datareq;
+        this.user_session = user_session;
+        this.total = 0;
+        window.caches.delete;
+    }
+    ComptePage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.users_datareq.getUsers().then(function (response) {
+            var users_json = response;
+            for (var i = 0; i < users_json.length; i++) {
+                _this.total += users_json[i].totalArbres;
+            }
+        });
+    };
+    ComptePage.prototype.goToFeed = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__pages_feed_feed__["a" /* FeedPage */], {}, { animate: false });
+    };
+    ComptePage.prototype.goToCRDA = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__pages_crda_crda__["a" /* CRDAPage */], {}, { animate: false });
+    };
+    ComptePage.prototype.goToMap = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages_map_map__["a" /* MapPage */], {}, { animate: false });
+    };
+    ComptePage.prototype.goToConfidentialite = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__pages_confid_confid__["a" /* ConfidPage */], { animate: true, animation: 'md-transition', duration: 1000 });
+    };
+    ComptePage.prototype.goToSteps = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_9__pages_steps_steps__["a" /* StepsPage */], { animate: true, animation: 'md-transition', duration: 1000 });
+    };
+    ComptePage.prototype.goToAbout = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__pages_about_about__["a" /* AboutPage */], { animate: true, animation: 'md-transition', duration: 1000 });
+    };
+    return ComptePage;
+}());
+ComptePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-compte',template:/*ion-inline-start:"D:\VERONIA\MTFT\app\src\pages\compte\compte.html"*/'<ion-content scroll="false">\n\n  <div class="backgroundContainer">\n    <div class="imgBackground">\n        <img src="assets/images/background.jpg"/>\n        <div class="backgroundImgLayer"></div>\n    </div>\n    <div class="title">\n      <div class="actions">\n        <div class="map">\n          <ion-icon name="pin" (click)="goToMap()"></ion-icon>\n        </div>\n        <div class="home">\n          <ion-icon name="home" (click)="goToFeed()"></ion-icon>\n        </div>\n        <div class="compte">\n          <ion-icon name="person"></ion-icon>\n        </div>\n        <div class="cart">\n          <ion-icon name="call"  (click)="goToCRDA()"></ion-icon>\n        </div>\n      </div>\n    </div>\n    <div class="contenuCompte">\n      <div class="image" [style.backgroundImage]="\'url(\' + user_session.getUser().photo + \')\'">\n      </div>\n      <div class="name">\n        <b>{{user_session.getUser().name}}</b>\n      </div>\n      <div class="nbrArbres">\n        <p *ngIf="user_session.getUser().totalArbres != 1">{{user_session.getUser().totalArbres}} arbres</p>\n        <p *ngIf="user_session.getUser().totalArbres == 1">{{user_session.getUser().totalArbres}} arbre</p>\n      </div>\n      <!-- <div class="comingsoon">\n        <img src="assets/images/comingsoon.png"/>\n\n      </div> -->\n      <div class="compteContainer">\n        <div class="compteContenu" (click)="goToAbout()">\n          <b>&Agrave; propos</b>\n        </div>\n        <div class="compteContenu" (click)="goToSteps()">\n          <b>Comment ça marche ?</b>\n        </div>\n        <div class="compteContenu" (click)="goToConfidentialite()">\n          <b>Confidentialité</b>\n        </div>\n      </div>\n      <div class="total">\n          <h1>Total des arbres plantées: </h1>\n          <div class="nbr">\n            <b>{{total}}</b>\n          </div>\n          <div class="million">\n            <b>/ 1 million</b>\n          </div>\n      </div>\n    </div>\n  </div>\n\n</ion-content>\n'/*ion-inline-end:"D:\VERONIA\MTFT\app\src\pages\compte\compte.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__providers_users_data_requests__["a" /* UsersDataRequests */], __WEBPACK_IMPORTED_MODULE_4__services_user_session__["a" /* UserSession */]])
+], ComptePage);
+
+//# sourceMappingURL=compte.js.map
+
+/***/ })
+
+},[303]);
+//# sourceMappingURL=main.js.map
